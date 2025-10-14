@@ -1,4 +1,4 @@
-title: Titre du standard
-description: Description du standard en une phrase.
-homepage: lien vers le github du standard
-version: numéro de version au format semver
+title: Standard CNIG Accessiblité du cheminement en espace naturel
+description: Le géostandard CNIG Accessibilité des cheminements en espaces naturels vise à assurer l’interopérabilité des données du cheminement pour les personnes en situation de handicap et avec les autres standards CNIG en relation avec la thématique.
+homepage: https://github.com/GT-CNIG-DDU/standard-accessibilite-espace-naturel
+version: 0.1
