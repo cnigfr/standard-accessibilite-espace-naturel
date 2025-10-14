@@ -15,51 +15,55 @@ Après validation par la Commission des standards, il sera publié sur la page w
 
 ## Contexte
 
-> _Décrire le contexte dans lequel le schéma a été élaboré. Il peut être utile de renvoyer ici vers la page du GT CNIG où la documentation du standard correspondant peut être trouvée._
+Les espaces naturels sont particulièrement prisés mais leur accessibilité reste encore trop limitée pour les personnes en situation de handicap, souvent par manque de connaissance sur les conditions d’accès et les services disponibles.
+
+Un [guide et des fiches techniques posant le cadre méthodologique sur la mise en accessibilité des espaces naturels](https://www.ecologie.gouv.fr/politiques-publiques/laccessibilite-espaces-naturels) est prévu _(parution prévue fin 2025)_
+
+La thématique de l’Accessibilité des cheminements en espaces naturels s’inscrit dans la continuité des [modèles déjà élaborés concernant l’accessibilité des ERP, de la voirie et des transports](https://www.ecologie.gouv.fr/politiques-publiques/donnees-daccessibilite-acceslibre-mobilites).
+
+Deux GT CNIG travaillent sur des thématiques en relation avec celle de l’Accessibilité des cheminements en espaces naturels :
+- le [GT CNIG PDIPR](https://cnig.gouv.fr/groupe-de-travail-plans-departementaux-des-a30072.html)
+- le [GT CNIG Espaces Naturels Protégés](https://cnig.gouv.fr/gt-espaces-naturels-proteges-a26277.html).
 
 ## Cadre juridique
 
-> _Citer les textes liés aux données sur lesquelles porte le schéma. Même lorsque l'utilisation du schéma n'est pas mentionnée dans les textes, il peut être utile de faire référence ici aux lois, décrets, arrêtés portant spécifiquement sur les données, leurs conditions de collecte, de partage, etc. Il n'est pas utile de citer les textes plus généraux (portant sur l'open data par exemple)._
+- [Loi du 11 février 2005](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000017759074/) pour l’égalité des droits et des chances à la participation et à la citoyenneté des personnes en situation de handicap : elle prévoit une obligation d’adaptation des conditions d’accès à des personnes en situation de handicap à leur environnement
+- L’accessibilité des espaces naturels tient compte de réglementations qui les régissent et relevant de différents codes (environnement, forestier, rural, collectivités locales, etc.)
+- Il n'existe actuellement pas réglementation spécifique à l’accessibilité des espaces naturels
 
-## Finalité
+## Objectifs
 
-> _Les enjeux et objectifs liés à la création du standard doivent être précisés ici._
+Le GT CNIG Accessibilité des cheminements en espaces naturels vise à :
+- élaborer et accompagner la mise en oeuvre du standard CNIG Accessibilité des cheminements en espaces naturels pour les personnes en situation de handicap.
+- assurer l’interopérabilité avec les modèles de données : les éventuels modèles thématiques préexistants,aisni que les standards CNIG en relation avec la thématique.
+- définir les modalités de collecte, l’hébergement des données, ainsi que leur gestion et leur diffusion.
+
+En parallèle, le GT CNIG Accessibilité prévoit la participation croisée avec le [GT CNIG Espaces Naturels Protégés](https://cnig.gouv.fr/gt-espaces-naturels-proteges-a26277.html) et le [GT CNIG PDIPR](https://cnig.gouv.fr/groupe-de-travail-plans-departementaux-des-a30072.html) (lancement dernier trimestre 2025).
 
 ## Cas d’usage
 
-> _Présenter ici quelques cas d'usage de données conformes au schéma. Ces cas peuvent exister ou être fictifs._
+**Mettre à disposition des informations claires, adaptées et détaillées sur la nature des cheminements, les équipements existants et les services disponibles** permettant à chacun de circuler sur les sentiers en toute sécurité, de préparer sa visite et de profiter pleinement des espaces naturels, en toute connaissance de cause.
 
 ## Organisation du dépôt
 
 * Le dossier [ressources](ressources) contient les documents utiles pour les utilisateurs du standard ;
 * Le dossier [groupe_de_travail_CNIG](groupe_de_travail_CNIG) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
-* Le dossier [standard](standard) contient le standard ainsi que les documents qui lui sont liés ;
-
-> _A supprimer en l'absence de schéma JSON :_
-
-* Le dossier [schéma](schéma) contient le schéma ainsi que les documents qui lui sont liés.
-
-## Modalités de production des données
-
-> _Dans le cas où la création du standard interviendrait alors que les données sont déjà produites, documenter ici comment leur production a lieu. Dans le cas contraire, cette partie peut être supprimée._
+* Le dossier [standard](standard) contient le projet de standard ainsi que les documents qui lui sont liés ;
+* Le dossier [schéma](schéma) contiendra le schéma json conforme au standard au standard TableSchema pour la publication des données ouvertes sur [data.gouv.fr]([url](https://www.data.gouv.fr/)).
 
 ### Données ouvertes
 
-> _Dans le cas où les données sont publiées en open data, sinon, cette partie peut être supprimée._
-
-Les données relatives à l'accessibilité du cheminement en espace naturel sont ouvertes et sont à la disposition de tous. Elles seront publiées sur <https://www.data.gouv.fr>
+Les données relatives à l'accessibilité du cheminement en espace naturel sont (seront) ouvertes et à la disposition de tous. Elles seront publiées sur [data.gouv.fr]([url](https://www.data.gouv.fr/)).
 
 ## Informations et participation au groupe de travail
 
 ### Méthodologie
 
-> _Cette partie peut être laissée telle quelle. Elle vise à expliquer les modalités d'adoption d'un standard par le CNIG._
-
 La méthodologie des groupes de travail du CNIG repose sur une diversité d'approches complémentaires :
 
 * Construire **une gouvernance ouverte** à l'ensemble des parties prenantes, afin de susciter l’adhésion et de créer le cadre favorable à la pérennité du dispositif ;
 * Promouvoir et exploiter **les retours d'expériences** afin d'étudier les diversités d'usages et embarquer les acteurs en les positionnant au centre du processus d’alimentation des référentiels géographiques ;
-* Privilégier **l’interopérabilité** entre système d'informations à l’échelle nationale pour favoriser le partage et l’échange de données : éviter les doubles stockages, doubles saisies, etc. ;
+* Privilégier **l’interopérabilité** entre systèmes d'informations à l’échelle nationale pour favoriser le partage et l’échange de données : éviter les doubles stockages, doubles saisies, etc. ;
 * S'appuyer sur les **processus éprouvés** de [standardisation du CNIG](http://cnig.gouv.fr/les-standards-cnig-a18959.html#Etapes-de-creation-d-un-Standard-CNIG) et de modélisation suivant [schema.data.gouv.fr](https://guides.etalab.gouv.fr/producteurs-schemas/).
 L’objectif est d'aboutir à terme à un consensus qui se traduise en un standard et un modèle de donnée commun pour l'accessibilité du cheminement en espace naturel.
 
