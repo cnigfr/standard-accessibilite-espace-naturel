@@ -1,0 +1,4 @@
+title: Titre du standard
+description: Description du standard en une phrase.
+homepage: lien vers le github du standard
+version: numéro de version au format semver
