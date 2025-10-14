@@ -46,8 +46,8 @@ En parallèle, le GT CNIG Accessibilité prévoit la participation croisée avec
 
 ## Organisation du dépôt
 
-* Le dossier [ressources](ressources) contient les documents utiles pour les utilisateurs du standard ;
-* Le dossier [groupe_de_travail_CNIG](groupe_de_travail_CNIG) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
+* Le dossier [documentation](documentation) contient les documents utiles pour les utilisateurs du standard ;
+* Le dossier [reunions](reunions) contient les comptes-rendus de réunions et les documents de suivi du groupe de travail ;
 * Le dossier [standard](standard) contient le projet de standard ainsi que les documents qui lui sont liés ;
 * Le dossier [schéma](schéma) contiendra le schéma json conforme au standard au standard TableSchema pour la publication des données ouvertes sur [data.gouv.fr]([url](https://www.data.gouv.fr/)).
 
