@@ -1,35 +1,16 @@
-# Modèle de dépôt Github pour les standards CNIG
+# Groupe de travail CNIG Accessibilité du cheminement en espace naturel
 
-> [!IMPORTANT]
-> **Attention** : Le modèle de fichier README débute après ce paragraphe. Dans la suite,
->
-> * toutes les consignes en citation, comme cette ligne, doivent être supprimées,
-> * tout ce qui est <mark>_surligné_</mark> doit être remplacé.
->
-> Vous trouverez l'ensemble des consignes et conseils pour utiliser ce modèle de dépôt sur [cette page de la documentation](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/19/la-fabrique-des-standards/realisation-du-standard/utiliser-le-modele-de-depot-github). 
+Ce référentiel publie les documents et travaux du [GT CNIG Accessibilité du cheminement en espace naturel](https://cnig.gouv.fr/gt-accessibilite-a18058.html#H_Accessibilite-du-cheminement-en-espace-naturel)
 
----
-<!-- Supprimer les trois tirets précédents (qui insèrent une ligne) -->
-
-# Standard <mark>_Nom_</mark>
-
-<!-- Indiquer le nom du standard à la place de <mark>_Nom_</mark>. Le texte entre les balises "<mark>_" et "_</mark>" apparaît en italique surligné et doit être remplacé dans ce modèle -->
-
-> _Insérer une description du standard et des données concernées en quelques lignes. Ici comme dans la suite, il est recommandé de réutiliser le contenu du mandat du GT ou d'autres documents déjà rédigés. Voici plusieurs exemples pour vous inspirer dans la rédaction :_
->
-> * _[standard des opération d'aménagement](https://github.com/cnigfr/schema-operations-amenagement/)_
-> * _[standard risques](https://github.com/cnigfr/Geostandards-Risques)._
->
-> _Afin de clarifier la lecture de cette description sur le site schema.data.gouv, préciser ici lorsque le standard n'est pas accompagné d'un schéma sur schema.data.gouv:_
->
 > [!TIP]
-> Ce standard CNIG ne possède pas de schéma de données directement accessible sur schema.data.gouv.fr. 
+> Ce standard CNIG ne possède pas encore de schéma de données directement accessible sur schema.data.gouv.fr. 
 
-Davantage de documentation peut être trouvée sur le site du CNIG au lien suivant : <mark>_insérer le lien vers la page du GT_</mark>.
 
-> Insérer une (ou plusieurs) image(s) pour illustrer la thématique en remplaçant le logo du CNIG ci-dessous.  
-<!-- Pour remplacer le logo du CNIG, suivre le modèle "![texte alternatif](lien vers l'image) Les images peuvent être chargées sur le dépôt Github dans un dossier image -->
-![logo du CNIG à remplacer par l'image du standard](https://cnig.gouv.fr/IMG/png/cnig2022_geolocalise-petit.png)
+## Géostandard CNIG Accessibilité du cheminement en espace naturel
+
+Le géostandard CNIG Accessibilité du cheminement en espace naturel est en cours d'élaboration et sera publié sur la page web des [ressources](http://cnig.gouv.fr/ressources-accessibilite-a25335.html) du GT CNIG Accessibilité.
+
+![251014_image_std_ACEN + copyright réduite 800p](https://github.com/user-attachments/assets/08094f38-1951-4f61-9475-7e481685ccf9)
 
 ## Contexte
 
