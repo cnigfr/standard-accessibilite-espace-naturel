@@ -1,6 +1,6 @@
 # Groupe de travail CNIG Accessibilité du cheminement en espace naturel
 
-Ce référentiel publie les documents et travaux du [GT CNIG Accessibilité du cheminement en espace naturel](https://cnig.gouv.fr/gt-accessibilite-a18058.html#H_Accessibilite-du-cheminement-en-espace-naturel)
+Ce référentiel publie les documents et travaux du [GT CNIG Accessibilité du cheminement en espace naturel](https://cnig.gouv.fr/gt-accessibilite-a18058.html#H_Accessibilite-du-cheminement-en-espace-naturel), qui fonctionne suivant [ce mandat](https://cnig.gouv.fr/gt-accessibilite-a18058.html#H_Mandats-des-groupes-de-travail), sous pilotage de la [Délégation Ministérielle à l'Accessibilité](https://www.ecologie.gouv.fr/politiques-publiques/politique-laccessibilite) (DMA).
 
 ## Géostandard CNIG Accessibilité du cheminement en espace naturel
 
