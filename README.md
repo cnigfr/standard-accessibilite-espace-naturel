@@ -4,7 +4,7 @@ Ce référentiel publie les documents et travaux du [GT CNIG Accessibilité du c
 
 ## Géostandard CNIG Accessibilité du cheminement en espace naturel
 
-Le géostandard Accessibilité du cheminement en espace naturel est actuellement en phase de : **élaboration**.
+Le géostandard Accessibilité du cheminement en espace naturel est actuellement en phase de : **<mark>_élaboration_</mark>**.
 
 _Après élaboration, consultation publique, puis validation par la Commission des standards, il sera destiné à être publié sur la page web des [ressources](http://cnig.gouv.fr/ressources-accessibilite-a25335.html) du GT CNIG Accessibilité._
 
@@ -28,14 +28,44 @@ Deux GT CNIG travaillent sur des thématiques en relation avec celle de l’Acce
 - L’accessibilité des espaces naturels tient compte de réglementations qui les régissent et relevant de différents codes (environnement, forestier, rural, collectivités locales, etc.)
 - Il n'existe actuellement pas réglementation spécifique à l’accessibilité des espaces naturels
 
+## Enjeux
+
+- Inclusion sociale et équité
+  - Garantir l'accès aux espaces naturels aux personnes en situation de handicap (PSH)
+  - Favoriser le droit à la nature pour tous
+  - Répondre à la demande croissante du tourismen durable et inclusif
+- Amélioration de l'expérience de l'usager
+  - Permettre à chacun de choisir un parcours adapté à ses capacitiés et attentes
+  - **Limiter les risques d'accidents ou de renoncement** une fois sur place
+- Valorisation et ttractivité des territoires
+  - Les gestionnaires (PNR, Offices de tourisme, collectivités, etc.) peuvent mettre en avant des itinéraires inclusifs
+- Harmonisatin et interopérabilité des données
+  - Eviter la multiplication des formats locaux et propriétaires
+  - Faciliter le partage d'informations entre acteurs
+  - Faciliter la diffusion des données (applis mobiles, cartographie, sites web, plateformes touristiques)
+- Aide à la gestion et à la planification
+  - Aider les gestionnaires à entretenir et améliorer les sentiers de manière ciblée
+  - Disposer d'un outil de pilotage pour suivre l'évolution de l'accessibilité
+
 ## Objectifs
 
 Le GT CNIG Accessibilité des cheminements en espaces naturels (ou GT CNIG ACEN) vise à :
-- élaborer et accompagner la mise en oeuvre du standard CNIG Accessibilité des cheminements en espaces naturels pour les personnes en situation de handicap.
+- élaborer le standard CNIG Accessibilité des cheminements en espaces naturels pour les personnes en situation de handicap, et accompagner sa mise en oeuvre .
 - assurer l’interopérabilité avec les modèles de données : les éventuels modèles thématiques préexistants, ainsi que les standards CNIG en relation avec la thématique.
 - définir les modalités de collecte, l’hébergement des données, ainsi que leur gestion et leur diffusion.
 
 En parallèle, le GT CNIG Accessibilité prévoit la participation croisée avec le [GT CNIG Espaces Naturels Protégés](https://cnig.gouv.fr/gt-espaces-naturels-proteges-a26277.html) et le [GT CNIG PDIPR](https://cnig.gouv.fr/groupe-de-travail-plans-departementaux-des-a30072.html).
+
+## Acteurs
+
+- Les ministères de la Transition écologique ; de l'Aménagement du territoire et de la Décentralisation ; des Sports, de la jeunesse et de la vie associative
+- Les services de l'Etat (Cerema, ONF, OFB, IGN, etc.)
+- Les Parcs nationaux, Parcs Naturels Régionaux (PNR) et gestionnaires d'espaces naturels
+- Les collectivités territoriales
+- Les associations de personnes en situation de handicap (PSH), de randonnée, etc
+- Les aménageurs publics et privés
+- Les bureaux d'études
+- etc
 
 ## Cas d’usage
 
