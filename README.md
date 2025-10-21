@@ -35,7 +35,7 @@ Deux GT CNIG travaillent sur des thématiques en relation avec celle de l’Acce
   - Favoriser le droit à la nature pour tous
   - Répondre à la demande croissante du tourisme durable et inclusif
 - Amélioration de l'expérience de l'usager
-  - Permettre à chacun de choisir un parcours adapté à ses capacitiés et attentes
+  - Permettre à chacun de choisir un parcours adapté à ses capacités et attentes
   - **Limiter les risques d'accidents ou de renoncement** une fois sur place
 - Valorisation et attractivité des territoires
   - Les gestionnaires (PNR, Offices de tourisme, collectivités, etc.) peuvent mettre en avant des itinéraires inclusifs
@@ -75,7 +75,7 @@ Il s'agit de **mettre à disposition des informations claires, adaptées et dét
 
 * Le dossier [documentation](documentation) contient les ressources documentaires du groupe de travail ;
 * Le dossier [reunions](reunions) contient les supports, comptes-rendus de réunions et documents de suivi du groupe de travail ;
-* Le dossier [standard](standard) contient le projet de standard ainsi que les ressuorces qui lui sont liées ;
+* Le dossier [standard](standard) contient le projet de standard ainsi que les ressources qui lui sont liées ;
 * Le dossier [schema](schema) contiendra le schéma json conforme au standard au standard TableSchema pour la publication des données ouvertes sur [data.gouv.fr]([url](https://www.data.gouv.fr/)).
 
 ### Données ouvertes
@@ -107,7 +107,7 @@ Les ressources associées et les bases de données correspondantes seront actual
 
 Vous pouvez contribuer au projet de standard en créant une issue dans la [section issues](https://github.com/GT-CNIG-DDU/standard-accessibilite-espace-naturel/issues) de ce référentiel github.
 
-Il s'agit d'une fonctionnalité permettant de poser une question, de proposer une suggestion d'amélioration ou de correction... directement sur ce référentiel github, ce qui en informe automatiquement les animateurs du GT CNIG ACEN et ses particpants (qui se sont abonnés à la réception des issues par mail).
+Il s'agit d'une fonctionnalité permettant de poser une question, de proposer une suggestion d'amélioration ou de correction... directement sur ce référentiel Github, ce qui en informe automatiquement les animateurs du GT CNIG ACEN et ses participants (qui se sont préalablement abonnés à la réception des issues par mail).
 
 ### Nous contacter
 
