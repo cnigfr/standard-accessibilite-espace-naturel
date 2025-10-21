@@ -33,13 +33,13 @@ Deux GT CNIG travaillent sur des thématiques en relation avec celle de l’Acce
 - Inclusion sociale et équité
   - Garantir l'accès aux espaces naturels aux personnes en situation de handicap (PSH)
   - Favoriser le droit à la nature pour tous
-  - Répondre à la demande croissante du tourismen durable et inclusif
+  - Répondre à la demande croissante du tourisme durable et inclusif
 - Amélioration de l'expérience de l'usager
   - Permettre à chacun de choisir un parcours adapté à ses capacitiés et attentes
   - **Limiter les risques d'accidents ou de renoncement** une fois sur place
-- Valorisation et ttractivité des territoires
+- Valorisation et attractivité des territoires
   - Les gestionnaires (PNR, Offices de tourisme, collectivités, etc.) peuvent mettre en avant des itinéraires inclusifs
-- Harmonisatin et interopérabilité des données
+- Harmonisation et interopérabilité des données
   - Eviter la multiplication des formats locaux et propriétaires
   - Faciliter le partage d'informations entre acteurs
   - Faciliter la diffusion des données (applis mobiles, cartographie, sites web, plateformes touristiques)
