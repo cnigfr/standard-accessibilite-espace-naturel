@@ -36,8 +36,8 @@ def check(obj, version, parents=""):
 
 to_check = []
 
-if "schema.json" in os.listdir():
-    to_check.append("schema.json")
+if "exemple-schema.json" in os.listdir():
+    to_check.append("exemple-schema.json")
 
 elif "datapackage.json" in os.listdir():
     with open("datapackage.json", "r") as f:
