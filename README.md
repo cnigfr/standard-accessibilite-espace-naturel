@@ -109,6 +109,8 @@ Vous pouvez contribuer au projet de standard en créant une issue dans la [secti
 
 Il s'agit d'une fonctionnalité permettant de poser une question, de proposer une suggestion d'amélioration ou de correction... directement sur ce référentiel Github, ce qui en informe automatiquement les animateurs du GT CNIG ACEN et ses participants (qui se sont préalablement abonnés à la réception des issues par mail).
 
+Un **Manuel du débutant pour Github** est disponible dans le répertoire [documentation](documentation)
+
 ### Nous contacter
 
 [Page de contact du CNIG](https://cnig.gouv.fr/spip.php?page=contact)
