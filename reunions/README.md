@@ -1,3 +1,3 @@
 # Réunions
 
-_Ce dossier est dédié aux travaux du GT du CNIG ACEN. Il a vocation à héberger les supports et compte-rendus de réunions_
+Ce répertoire contient les compte-rendus et présentations des réunions du [GT CNIG ACEN](https://cnig.gouv.fr/gt-accessibilite-a18058.html#H_Accessibilite-du-cheminement-en-espace-naturel)
