@@ -1,4 +1,9 @@
-# Schéma _thématique_
+# Schéma
+
+Ce répertoire contiendra (le cas échéant) le shema de donnée JSON correspondant au Standard CNIG Accessibilite du cheminement en espace naturel
+
+
+# En travaux
 
 _Indiquer ici les informations pertinentes pour la compréhension et l'utilisation du schéma et supprimer les informations ci-dessous qui sont destinées à aider le GT dans ses travaux._
 
