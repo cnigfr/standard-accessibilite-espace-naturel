@@ -107,7 +107,7 @@ Les ressources associées et les bases de données correspondantes seront actual
 
 Vous pouvez contribuer au projet de standard en créant une issue dans la [section issues](https://github.com/GT-CNIG-DDU/standard-accessibilite-espace-naturel/issues) de ce référentiel github.
 
-Il s'agit d'une fonctionnalité permettant de poser une question, de proposer une suggestion d'amélioration ou de correction... directement sur ce référentiel Github, ce qui en informe automatiquement les animateurs du GT CNIG ACEN et ses participants (qui se sont préalablement abonnés à la réception des issues par mail).
+Il s'agit d'une fonctionnalité permettant de poser une question, de proposer une suggestion d'amélioration ou de correction... directement sur ce référentiel Github, ce qui en informe automatiquement les animateurs du GT CNIG ACEN et ses participants (qui se seront préalablement abonnés à la réception des issues par mail).
 
 > [!TIP]
 > Un **Manuel du débutant pour Github** est disponible dans le répertoire [documentation](documentation)
