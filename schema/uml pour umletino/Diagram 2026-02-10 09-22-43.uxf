@@ -1,0 +1,204 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>
+</help_text><element><id>UMLClass</id><coordinates><x>693</x><y>63</y><w>198</w><h>297</h></coordinates><panel_attributes>*AIRE DE STATIONNEMENT*
+bg=orange
+--
+pk    id_aire : identifiant       
+        nom_aire : texte
+        adresse_aire : texte
+        type_stationnement : liste
+        type_revetement : liste
+        etat_revetement : liste
+        nb_stationnement_pmr : entier
+        nb_stationnement_allonges : entier
+        largeur_stationnement : décimal
+        surlongueur_stationnement : décimal
+        longueur_stationnement : décimal
+        signaletique_pmr : booléen
+        marquage_sol : booléen
+        pente : entier
+        devers : entier
+        mobilier : booléen
+        accrochage_deux_roues : booléen
+        gabarit : booléen
+        coord_gps_aire : texte
+*Géométrie : Ponctuelle*
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>297</w><h>27</h></coordinates><panel_attributes>*MCD Accessibilité du cheminement en espace naturel*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>828</x><y>9</y><w>90</w><h>27</h></coordinates><panel_attributes>10/02/2026
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>27</x><y>45</y><w>189</w><h>675</h></coordinates><panel_attributes>*CHEMINEMENT*
+bg=orange
+--
+pk   id_cheminement :  identifiant
+       id_itineraire_rando :  identifiant
+       id_osm :  identifiant
+       id_espace_naturel :  identifiant
+       pdipr_inscription : booleen
+       pdipr_date_inscription : date
+       nom_cheminement : texte
+       type_cheminement : liste
+       activite : liste
+       longueur : entier (m)
+       depart : texte
+       arrivee : texte
+       coord_geo_depart : GeoJSON
+       communes_nom : texte
+       communes_code : texte
+       presentation : texte
+       instruction : texte
+       themes : texte
+       comm_accessibilite : texte
+       medias : tableau
+       fiche_web : url
+       altitude : entier
+       exposition: liste
+-
+       label_psh : liste
+       largeur_min : décimal
+       pente_max : liste
+       devers_max : liste
+       denivele_positif : entier
+       profil_altimétrique : url
+       type_sol : liste
+       etat_sol : liste
+       revetement : liste
+       reperabilite : liste
+       continuite_repere : liste
+       signaletique : booléen
+       mobilier : booléen
+-
+       revetement_liaison : liste
+       longueur_liaison : entier
+       largeur_min_liaison : décimal
+       pente_max_liaison : liste
+       devers_max_liaison : liste
+       continuite_repere_liaison : liste
+-
+       date_creation : date
+       date_actualisation : date
+       producteur : texte
+       contact : texte
+*Géométrie : Linéraire*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>666</x><y>576</y><w>189</w><h>180</h></coordinates><panel_attributes>*SERVICE*
+bg=orange
+--
+pk    id_service : identifiant
+        local_accueil : booléen
+        type_local : liste
+        personnel : booléen
+        frequence_personnel : liste
+        equipement_pmr : booléen
+        type_equipement_pmr : liste
+        reseau_mobile : booléen
+        point_eau : booléen
+        toilettes_pmr : booléen
+        localisation_toilettes : texte
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>81</y><w>189</w><h>108</h></coordinates><panel_attributes>*OBSTACLE*
+bg=orange
+--
+pk   id_obstacle : identifiant    
+       type_obstacle : liste
+       frequence_obstacle : liste
+       reperabilite_obstacle : booléen
+      coord_gps_obstacle : GeoJSON
+*Géométrie : Ponctuelle*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>378</y><w>198</w><h>117</h></coordinates><panel_attributes>*ARRET TC*
+bg=orange
+--
+pk    id_arret_tc : identifiant     
+        nom_arret : texte
+        nom_ligne : texte
+        type_tc : liste
+        arret_pmr : booléen
+        coord_gps_arret : texte
+*Géométrie : Ponctuelle*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>261</y><w>189</w><h>189</h></coordinates><panel_attributes>*TRONCON DE CHEMINEMENT*
+bg=light_gray
+--
+pk   id_troncon : identifiant
+       type_tronçon : liste
+       largeur_min : décimal
+       pente : liste
+       devers : liste
+       type_sol : liste
+       etat_sol : liste
+       type_revetement : liste
+       reperabilite_troncon : liste
+       type_securite : liste
+       medias_troncon : tableau
+*Géométrie : Linéaire*
+
+
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>288</y><w>198</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+est composé de
+m1=1..n
+m2=1..1
+</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>603</y><w>189</w><h>135</h></coordinates><panel_attributes>*SIGNALETIQUE*
+bg=orange
+--
+pk     id_signaletique : identifiant
+        signaletique_dir : booléen
+        borne_information : booléen
+        panneau_information : booléen
+        syst_guide_visuel : booléen
+        syst_guide_tactile : booléen
+        syst_guid_sonore : booléen
+        autres : texte</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>261</x><y>585</y><w>189</w><h>162</h></coordinates><panel_attributes>*MOBILIER*
+bg=orange
+--
+pk    id_mobilier : idenfiant    
+        assise : booléen
+        assise_pmr : booléen
+        frequence_assise : liste
+        table_banc : booléen
+        table_banc_pmr : booléen
+        abris : booléen
+        agres_sensoriel : booléen
+        agres_ufr_pmr : booléen
+        autres : texte
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>909</w><h>765</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>441</y><w>90</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+est équipé de
+m1=0..n
+m2=1..1
+</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>504</y><w>270</w><h>81</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
+est équipé de
+m2=0..n
+m1=1..1
+</panel_attributes><additional_attributes>10;20;260;20;260;70</additional_attributes></element><element><id>UMLState</id><coordinates><x>684</x><y>45</y><w>216</w><h>459</h></coordinates><panel_attributes>/POINT D'ACCES/
+valign=top
+fg=#995400
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>243</x><y>567</y><w>630</w><h>198</h></coordinates><panel_attributes>/EQUIPEMENT/
+valign=top
+fg=#995400
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>495</y><w>315</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+est équipé de
+m1=0..n
+m2=1..1
+</panel_attributes><additional_attributes>10;80;10;30;310;30;310;10</additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>180</y><w>72</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+
+
+comporte
+m1=0..n
+m2=1..1
+
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>108</y><w>144</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+comporte
+m1=0..n
+m2=1..1
+</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>0</y><w>108</w><h>27</h></coordinates><panel_attributes>lt=-
+                              
+m2=1..1</panel_attributes><additional_attributes>10;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>45</y><w>504</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+est accessible via
+m2= 1..1
+m1=0..n</panel_attributes><additional_attributes>540;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>108</y><w>198</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+comporte
+m1=0..n
+m2=1..1
+</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element></diagram>
