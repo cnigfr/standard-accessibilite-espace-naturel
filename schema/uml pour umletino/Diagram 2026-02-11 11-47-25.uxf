@@ -1,25 +1,26 @@
 <diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>
-</help_text><element><id>UMLClass</id><coordinates><x>693</x><y>63</y><w>198</w><h>297</h></coordinates><panel_attributes>*AIRE DE STATIONNEMENT*
+</help_text><element><id>UMLClass</id><coordinates><x>693</x><y>63</y><w>198</w><h>306</h></coordinates><panel_attributes>*AIRE DE STATIONNEMENT*
 bg=orange
 --
-pk    id_aire : identifiant       
+pk    id_aire_stationnement : identifiant       
         nom_aire : texte
         adresse_aire : texte
         type_stationnement : liste
+        localisation_stationnement : liste
         type_revetement : liste
         etat_revetement : liste
-        nb_stationnement_pmr : entier
-        nb_stationnement_allonges : entier
+        nb_place_pmr : entier
+        nb_place_allongee : entier
         largeur_stationnement : décimal
-        surlongueur_stationnement : décimal
         longueur_stationnement : décimal
+        surlongueur_stationnement : décimal
         signaletique_pmr : booléen
         marquage_sol : booléen
         pente : entier
         devers : entier
         mobilier : booléen
         accrochage_deux_roues : booléen
-        gabarit : booléen
+        portique_limiteur : booléen
         coord_gps_aire : texte
 *Géométrie : Ponctuelle*
 
@@ -27,7 +28,7 @@ pk    id_aire : identifiant
 
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>297</w><h>27</h></coordinates><panel_attributes>*MCD Accessibilité du cheminement en espace naturel*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>828</x><y>9</y><w>90</w><h>27</h></coordinates><panel_attributes>10/02/2026
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>297</w><h>27</h></coordinates><panel_attributes>*MCD Accessibilité du cheminement en espace naturel*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>828</x><y>9</y><w>90</w><h>27</h></coordinates><panel_attributes>11/02/2026
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>27</x><y>45</y><w>189</w><h>675</h></coordinates><panel_attributes>*CHEMINEMENT*
 bg=orange
 --
