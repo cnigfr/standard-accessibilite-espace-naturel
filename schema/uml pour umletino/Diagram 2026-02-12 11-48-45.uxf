@@ -29,7 +29,7 @@ pk    id_aire_stationnement : identifiant
 
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>297</w><h>27</h></coordinates><panel_attributes>*MCD Accessibilité du cheminement en espace naturel*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>828</x><y>9</y><w>90</w><h>27</h></coordinates><panel_attributes>12/02/2026
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>27</x><y>45</y><w>189</w><h>675</h></coordinates><panel_attributes>*CHEMINEMENT*
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>27</x><y>45</y><w>207</w><h>675</h></coordinates><panel_attributes>*CHEMINEMENT*
 bg=orange
 --
 pk   id_cheminement :  identifiant
@@ -82,20 +82,14 @@ pk   id_cheminement :  identifiant
        producteur : texte
        contact : texte
 *Géométrie : Linéraire*
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>666</x><y>576</y><w>189</w><h>180</h></coordinates><panel_attributes>*SERVICE*
-bg=orange
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>666</x><y>594</y><w>189</w><h>135</h></coordinates><panel_attributes>*SERVICE*
+bg=white
 --
 pk    id_service : identifiant
-        local_accueil : booléen
-        type_local : liste
-        personnel : booléen
-        frequence_personnel : liste
-        equipement_pmr : booléen
-        type_equipement_pmr : liste
-        reseau_mobile : booléen
-        point_eau : booléen
-        toilettes_pmr : booléen
-        localisation_toilettes : texte
+
+/   &lt; attributs à étudier &gt; /
+
+*Géométrie : ponctuelle*
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>81</y><w>189</w><h>108</h></coordinates><panel_attributes>*OBSTACLE*
 bg=orange
 --
@@ -136,46 +130,32 @@ pk   id_troncon : identifiant
 
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>288</y><w>198</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>225</x><y>288</y><w>180</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 est composé de
 m1=1..n
 m2=1..1
-</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>603</y><w>189</w><h>135</h></coordinates><panel_attributes>*SIGNALETIQUE*
+</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>594</y><w>189</w><h>135</h></coordinates><panel_attributes>*SIGNALETIQUE*
 bg=orange
 --
 pk     id_signaletique : identifiant
-        signaletique_dir : booléen
-        borne_information : booléen
-        panneau_information : booléen
+        type_signaletique : liste
         syst_guide_visuel : booléen
         syst_guide_tactile : booléen
         syst_guid_sonore : booléen
-        autres : texte</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>261</x><y>585</y><w>189</w><h>162</h></coordinates><panel_attributes>*MOBILIER*
+*Géométrie : ponctuelle*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>594</y><w>189</w><h>72</h></coordinates><panel_attributes>*MOBILIER*
 bg=orange
 --
 pk    id_mobilier : idenfiant    
-        assise : booléen
-        assise_pmr : booléen
-        frequence_assise : liste
-        table_banc : booléen
-        table_banc_pmr : booléen
-        abris : booléen
-        agres_sensoriel : booléen
-        agres_ufr_pmr : booléen
-        autres : texte
-
+        type_mobilier : liste
+*Géométrie : ponctuelle*
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>909</w><h>765</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>441</y><w>90</w><h>144</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
 est équipé de
 m1=0..n
 m2=1..1
-</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>504</y><w>270</w><h>81</h></coordinates><panel_attributes>lt=-&gt;&gt;&gt;
-est équipé de
-m2=0..n
-m1=1..1
-</panel_attributes><additional_attributes>10;20;260;20;260;70</additional_attributes></element><element><id>UMLState</id><coordinates><x>684</x><y>45</y><w>216</w><h>459</h></coordinates><panel_attributes>/POINT D'ACCES/
+</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>684</x><y>45</y><w>216</w><h>459</h></coordinates><panel_attributes>/POINT D'ACCES/
 valign=top
 fg=#995400
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>243</x><y>567</y><w>630</w><h>198</h></coordinates><panel_attributes>/EQUIPEMENT/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>261</x><y>567</y><w>612</w><h>198</h></coordinates><panel_attributes>/EQUIPEMENT/
 valign=top
 fg=#995400
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>495</y><w>315</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
@@ -195,11 +175,7 @@ m1=0..n
 m2=1..1
 </panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>0</y><w>108</w><h>27</h></coordinates><panel_attributes>lt=-
                               
-m2=1..1</panel_attributes><additional_attributes>10;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>45</y><w>504</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+m2=1..1</panel_attributes><additional_attributes>10;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>225</x><y>45</y><w>477</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
 est accessible via
 m2= 1..1
-m1=0..n</panel_attributes><additional_attributes>540;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>108</y><w>198</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
-comporte
-m1=0..n
-m2=1..1
-</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element></diagram>
+m1=0..n</panel_attributes><additional_attributes>510;20;10;20</additional_attributes></element></diagram>
