@@ -28,14 +28,14 @@ pk    id_aire_stationnement : identifiant
 
 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>297</w><h>27</h></coordinates><panel_attributes>*MCD Accessibilité du cheminement en espace naturel*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>828</x><y>9</y><w>90</w><h>27</h></coordinates><panel_attributes>11/02/2026
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>9</y><w>297</w><h>27</h></coordinates><panel_attributes>*MCD Accessibilité du cheminement en espace naturel*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>828</x><y>9</y><w>90</w><h>27</h></coordinates><panel_attributes>12/02/2026
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>27</x><y>45</y><w>189</w><h>675</h></coordinates><panel_attributes>*CHEMINEMENT*
 bg=orange
 --
 pk   id_cheminement :  identifiant
        id_itineraire_rando :  identifiant
        id_osm :  identifiant
-       id_espace_naturel :  identifiant
+       id_espace_nat_protege :  identifiant
        pdipr_inscription : booleen
        pdipr_date_inscription : date
        nom_cheminement : texte
@@ -48,7 +48,7 @@ pk   id_cheminement :  identifiant
        communes_nom : texte
        communes_code : texte
        presentation : texte
-       instruction : texte
+       description_detaillee : texte
        themes : texte
        comm_accessibilite : texte
        medias : tableau
