@@ -23,7 +23,10 @@ jobs:
           ${{ runner.os }}-
     - name: Installation des dépendances
       run: pip install -r requirements.txt
-    - name: Vérification du schéma et des fichiers d'exemples
+       - name: Vérification du schéma cheminement et des fichiers d'exemples associés
       run: |
-        frictionless validate --type schema exemple-schema.json
-        frictionless validate --schema exemple-schema.json exemple-valide.csv
+        frictionless validate --type schema schema/cheminement/schema_cheminement.json
+        frictionless validate --schema schema/cheminement/schema_cheminement.json schema/cheminement/exemple_cheminement.csv
+    - name: Vérification du datapackage
+      run: |
+        frictionless validate datapackage.json
