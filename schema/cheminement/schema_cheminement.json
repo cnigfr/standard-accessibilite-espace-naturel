@@ -27,7 +27,7 @@
       {
          "title":"Exemple valide",
          "name":"exemple-valide-cheminement-csv",
-         "path":"https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v1.0.0/schema/cheminement/exemple-valide-cheminement.csv"
+         "path":"https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1/schema/cheminement/exemple-valide-cheminement.csv"
       }
    ],
    "sources":[
