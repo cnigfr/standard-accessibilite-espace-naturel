@@ -1,0 +1,18 @@
+{
+    "name": "datapackage-accessibilité-cheminement-espace-naturel",
+    "title": "Accessibilité du cheminement en espace naturel",
+    "description": "Data package contenant un seul schéma pour le moment : cheminement. Les autres schémas suivront",
+    "id": "accessibilité-cheminement-espace-naturel",
+    "resources": [
+        {
+            "name": "cheminement",
+            "path": "schema/cheminement/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/cheminement/schema_cheminement.json",
+            "documentation": "schema/cheminement/README.md"
+        }
+    ]
+}
