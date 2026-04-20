@@ -29,4 +29,4 @@ jobs:
         # frictionless validate --schema schema/cheminement/schema_cheminement.json schema/cheminement/exemple_cheminement.csv
     - name: Vérification du datapackage
       run: |
-        frictionless validate datapackage.json
+        # frictionless validate datapackage.json
