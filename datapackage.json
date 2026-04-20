@@ -5,8 +5,8 @@
     "id": "accessibilité-cheminement-espace-naturel",
     "resources": [
         {
-            "name": "cheminement",
-            "path": "schema/cheminement/exemple-valide.csv",
+            "name": "schema_cheminement",
+            "path": "schema/cheminement/exemple_cheminement.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
