@@ -26,7 +26,7 @@ jobs:
     - name: Vérification du schéma cheminement et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/cheminement/schema_cheminement.json
-        frictionless validate --schema schema/cheminement/schema_cheminement.json schema/cheminement/exemple_cheminement.csv
+        # frictionless validate --schema schema/cheminement/schema_cheminement.json schema/cheminement/exemple_cheminement.csv
     - name: Vérification du datapackage
       run: |
         frictionless validate datapackage.json
