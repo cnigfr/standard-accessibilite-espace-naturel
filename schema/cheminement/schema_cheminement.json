@@ -67,10 +67,10 @@
    ],
    "fields":[
       {
-         "name":"opam_id",
+         "name":"id_cheminement",
          "title":"identifiant",
-         "description":"identifiant de l’opération d’aménagement",
-         "example":"78418_OPERATION-AMENAGEMENT_0053",
+         "description":"identifiant ddu cheminement",
+         "example":"44003:CHE:00654:LOC",
          "type":"string",
          "constraints":{
             "required":true
