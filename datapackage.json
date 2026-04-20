@@ -1,5 +1,5 @@
 {
-    "name": "datapackage-accessibilité-cheminement-espace-naturel",
+    "name": "datapackage-acen",
     "title": "Accessibilité du cheminement en espace naturel",
     "description": "Data package contenant un seul schéma pour le moment : cheminement. Les autres schémas suivront",
     "id": "accessibilité-cheminement-espace-naturel",
