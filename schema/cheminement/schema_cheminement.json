@@ -88,7 +88,7 @@
          "title":"Identifiant OSM",
          "description":"Identifiant de la relation OSM correspondante",
          "example":"",
-         "type":"entier"
+         "type":"integer"
       },
       {
          "name":"id_espace_nat_protege",
@@ -167,7 +167,7 @@
          "title":"longueur du cheminement",
          "description":"longueur du cheminement (en mètre)",
          "example":"2200",
-         "type":"entier",
+         "type":"integer",
          "constraints":{
             "required":true
          }
