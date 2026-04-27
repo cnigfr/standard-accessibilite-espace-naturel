@@ -81,7 +81,7 @@
          "title":"Identifiant de l’itinéraire de rando",
          "description":"Identifiant de l’itinéraire de rando correspondant dans le « schéma itinéraires randonnées »",
          "example":"937571",
-         "type":"uuid"
+         "type":"integer"
       },
       {
          "name":"id_osm",
