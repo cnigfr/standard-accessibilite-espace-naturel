@@ -103,7 +103,8 @@
          "description":"Inscription (oui / non) au PDIPR",
          "example":"oui",
          "type":"boolean",
-		 "trueValues":["true","True","TRUE","1","oui","OUI"]
+		 "trueValues":["true","True","TRUE","1","oui","OUI"],
+		 "falseValues":["false","False","FALSE","0","non","NON]
       },
       {
          "name":"pdipr_date_inscription",
@@ -321,6 +322,8 @@
          "description":"présence d’un fil d’Ariane tout au long du cheminement",
          "example":"oui",
          "type":"boolean",
+		 "trueValues":["true","True","TRUE","1","oui","OUI"],
+		 "falseValues":["false","False","FALSE","0","non","NON],
          "constraints":{
             "required":true
          }
@@ -607,6 +610,8 @@
          "description":"présence d'éléments de signalétique directionnelle",
          "example":"oui",
          "type":"boolean",
+		 "trueValues":["true","True","TRUE","1","oui","OUI"],
+		 "falseValues":["false","False","FALSE","0","non","NON],
          "constraints":{
             "required":true
          }
@@ -617,6 +622,8 @@
          "description":"présence de mobilier",
          "example":"oui",
          "type":"boolean",
+		 "trueValues":["true","True","TRUE","1","oui","OUI"],
+		 "falseValues":["false","False","FALSE","0","non","NON],
          "constraints":{
             "required":true
          }
