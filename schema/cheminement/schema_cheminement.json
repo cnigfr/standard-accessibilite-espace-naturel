@@ -217,7 +217,7 @@
          "name":"communes_nom",
          "title":"noms des communes traversées",
          "description":"noms des communes traversées par l'itinéraire",
-         "example":"Commune d'Ancenis-Saint-Géréon ",
+         "example":["Commune d'Ancenis-Saint-Géréon"],
          "type":"array",
          "items":{
             "type":"string"
@@ -227,7 +227,7 @@
          "name":"communes_code",
          "title":"codes INSEE des communes traversées",
          "description":"codes INSEE des communes traversées par l'itinéraire",
-         "example":"44003",
+         "example":["44003"],
          "type":"array",
          "items":{
             "type":"string"
@@ -264,7 +264,7 @@
          "name":"environnement",
          "title":"composantes de l’environnement naturel",
          "description":"description des principales composantes l’environnement naturel",
-         "example":"forêt|zone humide",
+         "example":["forêt","zone humide"],
          "type":"array",
          "items":{
             "type":"string"
