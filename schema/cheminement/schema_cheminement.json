@@ -198,7 +198,7 @@
          "name":"coord_geo_depart",
          "title":"coordonnées GPS du point de départ",
          "description":"coordonnées géographiques (GPS) du point de départ au format GeoJSON",
-         "example":"{\"type\": \"Point\", \"coordinates\": [49.2527 3.9815] }",
+         "example":"{\"type\": \"Point\", \"coordinates\": [49.2527, 3.9815] }",
          "type":"geojson",
          "constraints":{
             "required":true
