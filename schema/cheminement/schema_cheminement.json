@@ -109,8 +109,7 @@
          "title":"date d'inscription au PDIPR",
          "description":"date d'inscription au PDIPR (AAAA-MM-JJ)",
          "example":"2024-06-15",
-         "type":"date",
-         "format":"%Y-%M-%D"
+         "type":"date"
       },
       {
          "name":"nom_cheminement",
