@@ -88,7 +88,7 @@
          "title":"Identifiant OSM",
          "description":"Identifiant de la relation OSM correspondante",
          "example":"",
-         "type":"entier"
+         "type":"integer"
       },
       {
          "name":"id_espace_nat_protege",
@@ -102,7 +102,7 @@
          "title":"Inscription au PDIPR",
          "description":"Inscription (oui / non) au PDIPR",
          "example":"oui",
-         "type":"booléen"
+         "type":"boolean"
       },
       {
          "name":"pdipr_date_inscription",
@@ -159,7 +159,7 @@
          "title":"longueur du cheminement",
          "description":"longueur du cheminement (en mètre)",
          "example":"2200",
-         "type":"entier",
+         "type":"integer",
          "constraints":{
             "required":true,
             "enum":[
@@ -320,7 +320,7 @@
          "title":"présence d’un fil d’Ariane",
          "description":"présence d’un fil d’Ariane tout au long du cheminement",
          "example":"oui",
-         "type":"booléen",
+         "type":"boolean",
          "constraints":{
             "required":true
          }
@@ -362,7 +362,7 @@
          "title":"altitude max par rapport au niveau de la mer",
          "description":"hauteur du parcours la plus élevée (altitude max) par rapport au niveau de la mer",
          "example":"1200",
-         "type":"entier",
+         "type":"integer",
          "constraints":{
             "required":true
          }
@@ -464,7 +464,7 @@
          "title":"somme de toutes les montées",
          "description":"somme de toutes les montées du parcours (en mètre)",
          "example":"150",
-         "type":"entier",
+         "type":"integer",
          "constraints":{
             "required":true
          }
@@ -606,7 +606,7 @@
          "title":"présence d'éléments de signalétique",
          "description":"présence d'éléments de signalétique directionnelle",
          "example":"oui",
-         "type":"booléen",
+         "type":"boolean",
          "constraints":{
             "required":true
          }
@@ -616,7 +616,7 @@
          "title":"présence de mobilier",
          "description":"présence de mobilier",
          "example":"oui",
-         "type":"booléen",
+         "type":"boolean",
          "constraints":{
             "required":true
          }
@@ -681,7 +681,7 @@
          "title":"longueur de la liaison",
          "description":"longueur de la liaison (en m)",
          "example":"100 m",
-         "type":"entier",
+         "type":"integer",
          "constraints":{
             "required":true
          }
