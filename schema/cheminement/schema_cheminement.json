@@ -144,7 +144,7 @@
          "name":"activité",
          "title":"activités proposées",
          "description":"activités proposées par le cheminement",
-         "example":"sentier de découverte",
+         "example":["sentier de découverte"],
          "type":"array",
          "items":{
             "type":"string"
