@@ -81,14 +81,14 @@
          "title":"Identifiant de l’itinéraire de rando",
          "description":"Identifiant de l’itinéraire de rando correspondant dans le « schéma itinéraires randonnées »",
          "example":"937571",
-         "type":"integer"
+         "type":"string"
       },
       {
          "name":"id_osm",
          "title":"Identifiant OSM",
          "description":"Identifiant de la relation OSM correspondante",
          "example":"",
-         "type":"integer"
+         "type":"entier"
       },
       {
          "name":"id_espace_nat_protege",
@@ -150,16 +150,6 @@
             "type":"string"
          },
          "constraints":{
-            "required":true
-         }
-      },
-      {
-         "name":"longueur",
-         "title":"longueur du cheminement",
-         "description":"longueur du cheminement (en mètre)",
-         "example":"2200",
-         "type":"integer",
-         "constraints":{
             "required":true,
             "enum":[
                "balade",
@@ -170,6 +160,15 @@
                "NC",
                "sans objet"
             ]
+      },
+      {
+         "name":"longueur",
+         "title":"longueur du cheminement",
+         "description":"longueur du cheminement (en mètre)",
+         "example":"2200",
+         "type":"entier",
+         "constraints":{
+            "required":true
          }
       },
       {
