@@ -49,7 +49,7 @@
       }
    ],
    "created":"2026-04-20",
-   "lastModified":"2026-04-24",
+   "lastModified":"2026-04-27",
    "version":"v0.1",
    "contributors":[
       {
@@ -71,7 +71,7 @@
          "title":"identifiant du cheminement",
          "description":"identifiant unique du cheminement",
          "example":"44003:CHE:00654:LOC",
-         "type":"identifiant",
+         "type":"string",
          "constraints":{
             "required":true
          }
