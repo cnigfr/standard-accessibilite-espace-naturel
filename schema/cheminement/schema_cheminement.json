@@ -753,16 +753,14 @@
          "title":"date de création du cheminement",
          "description":"date de création des renseignements du cheminement",
          "example":"2020-03-06",
-         "type":"date",
-         "format":"%Y-%M-%D"
+         "type":"date"
       },
       {
          "name":"date_actualisation",
          "title":"date de modification du cheminement",
          "description":"date de modification des renseignements du cheminement",
          "example":"2026-01-15",
-         "type":"date",
-         "format":"%Y-%M-%D"
+         "type":"date"
       },
       {
          "name":"producteur",
