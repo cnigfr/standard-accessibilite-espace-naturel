@@ -95,7 +95,7 @@
          "title":"Identifiant de l’espace naturel protégé",
          "description":"Identifiant de l’espace naturel protégé dans le standard CNIG espaces naturels protégés",
          "example":"EN7845",
-         "type":"identifiant"
+         "type":"string"
       },
       {
          "name":"pdipr_inscription",
@@ -418,7 +418,7 @@
          "title":"largeur minimale",
          "description":"largeur minimale du cheminement libre de mobilier ou autre obstacle (en mètre)",
          "example":"0.7",
-         "type":"décimal",
+         "type":"number",
          "constraints":{
             "required":true
          }
@@ -691,7 +691,7 @@
          "title":"largeur minimale de la liaison",
          "description":"largeur minimale de la liaison libre de mobilier ou obstacle (en m)",
          "example":"50",
-         "type":"décimal",
+         "type":"number",
          "constraints":{
             "required":true
          }
