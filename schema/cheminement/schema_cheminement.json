@@ -117,7 +117,7 @@
          "title":"nom du cheminement",
          "description":"nom du cheminement",
          "example":"Sentier des Glaisins",
-         "type":"texte",
+         "type":"string",
          "constraints":{
             "required":true
          }
@@ -178,7 +178,7 @@
          "title":"nom du point de départ",
          "description":"nom du point de départ",
          "example":"50 route des Glaisins",
-         "type":"texte",
+         "type":"string",
          "constraints":{
             "required":true
          }
@@ -188,7 +188,7 @@
          "title":"nom du point d'arrivée",
          "description":"nom du point d'arrivée",
          "example":"50 route des Glaisins",
-         "type":"texte",
+         "type":"string",
          "constraints":{
             "required":true
          }
@@ -221,7 +221,7 @@
          "example":"Commune d'Ancenis-Saint-Géréon ",
          "type":"array",
          "items":{
-            "type":"texte"
+            "type":"string"
          }
       },
       {
@@ -231,7 +231,7 @@
          "example":"44003",
          "type":"array",
          "items":{
-            "type":"texte"
+            "type":"string"
          }
       },
       {
@@ -239,7 +239,7 @@
          "title":"présentation et description générale",
          "description":"présentation et description générale du cheminement",
          "example":"tout au long de l'itinéraire, alternance de parties plates et de montées",
-         "type":"texte",
+         "type":"string",
          "constraints":{
             "required":true
          }
@@ -249,7 +249,7 @@
          "title":"description détaillée",
          "description":"description détaillée (pas à pas) du tracé du cheminement",
          "example":"L’itinéraire permet de découvrir en profondeur le Bois du mystère et les sables mouvants légendaires\n",
-         "type":"texte",
+         "type":"string",
          "constraints":{
             "required":true
          }
@@ -259,7 +259,7 @@
          "title":"thèmes ou mots-clefs",
          "description":"thèmes ou mots-clefs caractérisant le cheminement",
          "example":"marais, tourbe, végétation, pêche traditionnelle",
-         "type":"texte"
+         "type":"string"
       },
       {
          "name":"environnement",
@@ -294,7 +294,7 @@
          "title":"informations complémentaires sur l'accessibilité",
          "description":"informations complémentaires sur l'accessibilité, les aménagements et les équipements",
          "example":"présence de FTT à l'office de tourisme",
-         "type":"texte"
+         "type":"string"
       },
       {
          "name":"presence_personnel",
@@ -330,7 +330,7 @@
          "title":"présence d’obstacles saisonniers",
          "description":"informations sur la présence d’obstacles saisonniers",
          "example":"risque d’inondation entre octobre et avril",
-         "type":"texte"
+         "type":"string"
       },
       {
          "name":"url_media",
@@ -770,7 +770,7 @@
          "title":"producteur des renseignements du cheminement",
          "description":"structure productrice des renseignements du cheminement",
          "example":"PNR du Perche",
-         "type":"texte",
+         "type":"string",
          "constraints":{
             "required":true
          }
@@ -780,7 +780,7 @@
          "title":"informations de contact",
          "description":"informations de contact de la structure productrice du cheminement",
          "example":"Conseil départemental du Puy-de-Dôme / Direction Environnement\ntel : 04 12 34 56 78\nmail : contact@puy-de-dome.fr\nweb  https://www.parcs-naturels-regionaux.fr/.../cd63/contact",
-         "type":"texte",
+         "type":"string",
          "constraints":{
             "required":true
          }
