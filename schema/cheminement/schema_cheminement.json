@@ -160,7 +160,7 @@
                "NC",
                "sans objet"
             ]
-         }   
+		 }
       },
       {
          "name":"longueur",
@@ -335,7 +335,7 @@
          "name":"url_media",
          "title":"photos représentatives du cheminement",
          "description":"hyperliens vers des photos représentatives du cheminement",
-         "example":"https://www.parcs-naturels-regionaux.fr/.../pnr_perche/sentier_glaisins/photos",
+         "example":["https://www.parcs-naturels-regionaux.fr/.../pnr_perche/sentier_glaisins/photos"],
          "type":"array",
          "items":{
             "type":"string",
@@ -370,7 +370,7 @@
          "name":"exposition",
          "title":"exposition géographique",
          "description":"exposition géographique du cheminement (points cardinaux)",
-         "example":"ouest",
+         "example":["ouest"],
          "type":"array",
          "items":{
             "type":"string"
@@ -395,7 +395,7 @@
          "name":"label_psh",
          "title":"label ou certification d'accessibilité",
          "description":"label ou certification pour une démarche d'accessibilité",
-         "example":"Tourisme & Handicap|handi'pot",
+         "example":["Tourisme & Handicap","handi'pot"],
          "type":"array",
          "items":{
             "type":"string"
@@ -483,7 +483,7 @@
          "name":"type_sol",
          "title":"types de sols majoritaires",
          "description":"types de sols majoritaires du cheminement",
-         "example":"stabilisé|platelage",
+         "example":["stabilisé","platelage"],
          "type":"array",
          "items":{
             "type":"string"
@@ -521,7 +521,7 @@
          "name":"etat_sol",
          "title":"états majoritaires du sol",
          "description":"états majoritaires du sol",
-         "example":"roulant",
+         "example":["roulant"],
          "type":"array",
          "items":{
             "type":"string"
@@ -544,7 +544,7 @@
          "name":"systeme_guidage",
          "title":"présence de systèmes de guidage",
          "description":"présence d’un système de guidage visuel et/ou tactile et/ou sonore",
-         "example":"visuel|sonore",
+         "example":["visuel","sonore"],
          "type":"array",
          "items":{
             "type":"string"
@@ -641,7 +641,7 @@
          "name":"type_sol_liaison",
          "title":"types de sol majoritaire de la liaison",
          "description":"types de sol majoritaire de la liaison",
-         "example":"gravier fin et compact",
+         "example":["gravier fin et compact"],
          "type":"array",
          "items":{
             "type":"string"
