@@ -679,7 +679,7 @@
          "name":"longueur_liaison",
          "title":"longueur de la liaison",
          "description":"longueur de la liaison (en m)",
-         "example":"100 m",
+         "example":"100",
          "type":"integer",
          "constraints":{
             "required":true
