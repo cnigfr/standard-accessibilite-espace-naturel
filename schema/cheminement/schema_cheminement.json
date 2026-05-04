@@ -399,7 +399,7 @@
          "name":"label_psh",
          "title":"label ou certification d'accessibilité",
          "description":"label ou certification pour une démarche d'accessibilité",
-         "example":["Tourisme & Handicap","handi'pot"],
+         "example":["Tourisme & Handicap","Handi'spot"],
          "type":"array",
          "items":{
             "type":"string"
