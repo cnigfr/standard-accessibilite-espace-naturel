@@ -135,7 +135,6 @@
                "boucle",
                "aller-retour",
                "linéaire",
-               "plage avec accès à l'eau",
                "autre",
                "NC",
                "sans objet"
@@ -155,9 +154,8 @@
             "required":true,
             "enum":[
                "balade",
-               "sentier de découverte",
+               "découverte pédagogique",
                "parcours sportif",
-               "espace pédagogique",
                "site naturel",
                "NC",
                "sans objet"
