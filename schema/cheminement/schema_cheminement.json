@@ -798,6 +798,11 @@
          "geometryType": "LINESTRING",
          "constraints":{
             "required":true
+         },
+         "gpkg": {
+            "geometryType": "LINESTRING",
+            "srs_id": 2154,
+            "spatialIndex": true
          }
       }
    ],
