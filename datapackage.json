@@ -13,6 +13,16 @@
             "encoding": "utf-8",
             "schema": "schema/cheminement/schema_cheminement.json",
             "documentation": "schema/cheminement/README.md"
+        },
+		{
+            "name": "troncon",
+            "path": "schema/troncon/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/troncon/schema_troncon.json",
+            "documentation": "schema/troncon/README.md"
         }
     ]
 }
