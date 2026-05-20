@@ -33,6 +33,16 @@
             "encoding": "utf-8",
             "schema": "schema/obstacle/schema_obstacle.json",
             "documentation": "schema/obstacle/README.md"
+        },
+		{
+            "name": "arret_tc",
+            "path": "schema/arret_tc/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/arret_tc/schema_arret_tc.json",
+            "documentation": "schema/arret_tc/README.md"
         }
     ]
 }
