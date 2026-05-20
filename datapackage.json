@@ -43,6 +43,16 @@
             "encoding": "utf-8",
             "schema": "schema/arret_tc/schema_arret_tc.json",
             "documentation": "schema/arret_tc/README.md"
+        },
+		{
+            "name": "aire_stationnement",
+            "path": "schema/aire_stationnement/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/aire_stationnement/schema_aire_stationnement.json",
+            "documentation": "schema/aire_stationnement/README.md"
         }
     ]
 }
