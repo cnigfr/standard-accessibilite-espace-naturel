@@ -258,6 +258,7 @@
         "constraints":{
             "required":false,
             "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"
+            }
         }
     },
     {
