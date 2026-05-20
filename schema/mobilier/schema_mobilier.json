@@ -109,6 +109,7 @@
       "description": "géométrie ponctuelle du mobilier en projection Lambert93 au format GeoJSON",
       "example": "{\"type\": \"Point\", \"coordinates\": [ [656589.70, 6425785.32] }",
       "type": "geojson",
+      "geometryType": "POINT",
       "constraints": {
         "required": true
       }
