@@ -794,7 +794,8 @@
          "title":"géométrie linéaire du cheminement",
          "description":"géométrie linéaire du cheminement en projection Lambert93 au format GeoJSON",
          "example":"{\"type\": \"LineString\", \"coordinates\": [ [656589.70, 6425785.32], [656655.02, 6425866.31], [656663.55, 6425874.43] ] }",
-         "type":"geojson",
+         "type": "geometry",
+         "geometryType": "LINESTRING",
          "constraints":{
             "required":true
          }
