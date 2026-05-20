@@ -282,6 +282,11 @@
       "example": "{\"type\": \"Polygon\", \"coordinates\": [ [656589.70, 6425785.32] }",
       "type": "geojson",
       "geometryType": "POLYGON",
+      "gpkg": {
+            "geometryType": "POLYGON",
+            "srs_id": 2154,
+            "spatialIndex": true
+         },
       "constraints": {
         "required": true
       }

@@ -177,6 +177,11 @@
       "example": "{\"type\": \"Point\", \"coordinates\": [ [656589.70, 6425785.32] }",
       "type": "geojson",
       "geometryType": "POINT",
+      "gpkg": {
+            "geometryType": "POINT",
+            "srs_id": 2154,
+            "spatialIndex": true
+         },
       "constraints": {
         "required": true
       }
