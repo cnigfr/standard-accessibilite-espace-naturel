@@ -53,6 +53,36 @@
             "encoding": "utf-8",
             "schema": "schema/aire_stationnement/schema_aire_stationnement.json",
             "documentation": "schema/aire_stationnement/README.md"
+        },
+		{
+            "name": "mobilier",
+            "path": "schema/mobilier/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/mobilier/schema_mobilier.json",
+            "documentation": "schema/mobilier/README.md"
+        },
+		{
+            "name": "service",
+            "path": "schema/service/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/service/schema_service.json",
+            "documentation": "schema/service/README.md"
+        },
+		{
+            "name": "signaletique",
+            "path": "schema/signaletique/exemple-valide.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "schema/signaletique/schema_signaletique.json",
+            "documentation": "schema/signaletique/README.md"
         }
     ]
 }
