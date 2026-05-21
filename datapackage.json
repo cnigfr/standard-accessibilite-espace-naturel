@@ -22,7 +22,16 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "schema/troncon/schema_troncon.json",
-            "documentation": "schema/troncon/README.md"
+            "documentation": "schema/troncon/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_cheminement",
+                    "reference": {
+                        "resource": "cheminement",
+                        "fields": "id_cheminement"
+                    }
+                }
+            ]
         },
 		{
             "name": "obstacle",
