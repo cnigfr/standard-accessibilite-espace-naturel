@@ -77,6 +77,16 @@
       }
     },
     {
+      "name": "id_cheminement",
+      "title": "identifiant du cheminement",
+      "description": "identifiant du cheminement auquel appartient le tronçon",
+      "example": "44003:CHE:00654:LOC",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "id_osm",
       "title": "identifiant OSM",
       "description": "identifiant osm de l’objet correspondant",
