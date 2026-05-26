@@ -80,7 +80,30 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "schema/mobilier/schema_mobilier.json",
-            "documentation": "schema/mobilier/README.md"
+            "documentation": "schema/mobilier/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                },
+                {
+                    "fields": "id_arret_tc",
+                    "reference": {
+                        "resource": "arret_tc",
+                        "fields": "id_arret_tc"
+                    }
+                },
+                {
+                    "fields": "id_aire_stationnement",
+                    "reference": {
+                        "resource": "aire_stationnement",
+                        "fields": "id_aire_stationnement"
+                    }
+                }
+            ]
         },
 		{
             "name": "service",
@@ -90,7 +113,30 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "schema/service/schema_service.json",
-            "documentation": "schema/service/README.md"
+            "documentation": "schema/service/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                },
+                {
+                    "fields": "id_arret_tc",
+                    "reference": {
+                        "resource": "arret_tc",
+                        "fields": "id_arret_tc"
+                    }
+                },
+                {
+                    "fields": "id_aire_stationnement",
+                    "reference": {
+                        "resource": "aire_stationnement",
+                        "fields": "id_aire_stationnement"
+                    }
+                }
+            ]
         },
 		{
             "name": "signaletique",
@@ -100,7 +146,30 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "schema/signaletique/schema_signaletique.json",
-            "documentation": "schema/signaletique/README.md"
+            "documentation": "schema/signaletique/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                },
+                {
+                    "fields": "id_arret_tc",
+                    "reference": {
+                        "resource": "arret_tc",
+                        "fields": "id_arret_tc"
+                    }
+                },
+                {
+                    "fields": "id_aire_stationnement",
+                    "reference": {
+                        "resource": "aire_stationnement",
+                        "fields": "id_aire_stationnement"
+                    }
+                }
+            ]
         }
     ]
 }
