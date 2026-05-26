@@ -60,7 +60,16 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "schema/arret_tc/schema_arret_tc.json",
-            "documentation": "schema/arret_tc/README.md"
+            "documentation": "schema/arret_tc/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_cheminement",
+                    "reference": {
+                        "resource": "cheminement",
+                        "fields": "id_cheminement"
+                    }
+                }
+            ]
         },
 		{
             "name": "aire_stationnement",
@@ -70,7 +79,16 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "schema/aire_stationnement/schema_aire_stationnement.json",
-            "documentation": "schema/aire_stationnement/README.md"
+            "documentation": "schema/aire_stationnement/README.md",
+            "foreignKeys": [
+                {
+                    "fields": "id_cheminement",
+                    "reference": {
+                        "resource": "cheminement",
+                        "fields": "id_cheminement"
+                    }
+                }
+            ]
         },
 		{
             "name": "mobilier",

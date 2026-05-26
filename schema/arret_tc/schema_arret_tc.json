@@ -49,7 +49,7 @@
     }
   ],
   "created": "2026-04-20",
-  "lastModified": "2026-05-20",
+  "lastModified": "2026-05-26",
   "version": "v0.1",
   "contributors": [
     {
@@ -71,6 +71,16 @@
       "title": "identifiant de l'arrêt de transport collectif",
       "description": "identifiant unique de l'arrêt de transport collectif",
       "example": "44003:ATC:0022:LOC",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "id_cheminement",
+      "title": "identifiant du cheminement",
+      "description": "identifiant du cheminement desservi par l'arrêt de transport en commun",
+      "example": "44003:CHE:00654:LOC",
       "type": "string",
       "constraints": {
         "required": true

@@ -48,7 +48,7 @@
       "path": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000002461485"
     }
   ],
-  "created": "2026-04-20",
+  "created": "2026-04-26",
   "lastModified": "2026-05-20",
   "version": "v0.1",
   "contributors": [
@@ -71,6 +71,16 @@
       "title": "identifiant  de l'aire de stationnement",
       "description": "identifiant unique de l'aire de stationnement PMR",
       "example": "44003:AST:0007:LOC",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "id_cheminement",
+      "title": "identifiant du cheminement",
+      "description": "identifiant du cheminement desservi par l'aire de stationnement",
+      "example": "44003:CHE:00654:LOC",
       "type": "string",
       "constraints": {
         "required": true
