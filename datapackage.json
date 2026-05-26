@@ -41,7 +41,16 @@
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": "schema/obstacle/schema_obstacle.json",
-            "documentation": "schema/obstacle/README.md"
+            "documentation": "schema/obstacle/README.md",
+			"foreignKeys": [
+                {
+                    "fields": "id_troncon",
+                    "reference": {
+                        "resource": "troncon",
+                        "fields": "id_troncon"
+                    }
+                }
+            ]
         },
 		{
             "name": "arret_tc",
