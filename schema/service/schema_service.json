@@ -49,7 +49,7 @@
     }
   ],
   "created": "2026-04-20",
-  "lastModified": "2026-05-20",
+  "lastModified": "2026-05-26",
   "version": "v0.1",
   "contributors": [
     {
@@ -74,6 +74,36 @@
       "type": "string",
       "constraints": {
         "required": true
+      }
+    },
+    {
+      "name": "id_troncon",
+      "title": "identifiant du troncon",
+      "description": "identifiant du tronçon sur lequel est positionné le service",
+      "example": "44003:TRC:00089:LOC",
+      "type": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "id_arret_tc",
+      "title": "identifiant de l'arrêt",
+      "description": "identifiant de l'arrêt de transport en commun sur lequel est positionné le service",
+      "example": "44003:ATC:0022:LOC",
+      "type": "string",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "id_aire_stationnement",
+      "title": "identifiant de l'aire de stationnement",
+      "description": "identifiant de l'aire de stationnement sur laquelle est positionné le service",
+      "example": "44003:AST:0007:LOC",
+      "type": "string",
+      "constraints": {
+        "required": false
       }
     },
     {
