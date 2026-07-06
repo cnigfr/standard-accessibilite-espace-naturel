@@ -49,7 +49,7 @@
     }
   ],
   "created": "2026-04-20",
-  "lastModified": "2026-05-26",
+  "lastModified": "2026-07-06",
   "version": "v0.1",
   "contributors": [
     {
@@ -116,7 +116,7 @@
         "required": true,
         "enum": [
           "assise",
-          "assise pour PMR ",
+          "assise pour PMR",
           "table avec banc intégré",
           "table avec banc pour PMR",
           "abri",
@@ -127,6 +127,26 @@
           "poubelle",
           "barbecue",
           "support vélo",
+          "autre",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
+    {
+      "name": "etat_mobilier",
+      "title": "état du mobilier",
+      "description": "état du mobilier",
+      "example": "excellent",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "excellent",
+          "bon",
+          "moyen",
+          "mauvais",
+          "hors service",
           "autre",
           "NC",
           "sans objet"
