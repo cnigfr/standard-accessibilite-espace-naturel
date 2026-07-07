@@ -49,7 +49,7 @@
     }
   ],
   "created": "2026-04-20",
-  "lastModified": "2026-05-26",
+  "lastModified": "2026-07-07",
   "version": "v0.1",
   "contributors": [
     {
@@ -140,6 +140,19 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "url_media",
+      "title": "hyperliens vers des photos de l’arrêt de transport collectif",
+      "description": "hyperliens vers des photos représentatives de l’arrêt de transport collectif",
+      "example": ["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],
+      "type": "array",
+      "items": {
+        "type":"string",
+        "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"}
+        }
     },
     {
       "name": "coord_gps_arret",
