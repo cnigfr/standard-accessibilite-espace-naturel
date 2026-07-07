@@ -441,7 +441,8 @@
          "constraints":{
             "required":true,
             "enum":[
-               "minimale",
+               "nulle",
+			   "minimale",
                "faible",
                "moyenne",
                "forte",
@@ -727,6 +728,7 @@
          "constraints":{
             "required":true,
             "enum":[
+			   "nulle",
                "minimale",
                "faible",
                "moyenne",
