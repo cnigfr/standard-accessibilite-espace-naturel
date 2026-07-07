@@ -49,7 +49,7 @@
     }
   ],
   "created": "2026-04-20",
-  "lastModified": "2026-05-26",
+  "lastModified": "2026-07-07",
   "version": "v0.1",
   "contributors": [
     {
@@ -199,6 +199,19 @@
       "description": "commentaire libre sur le service proposé",
       "example": "3 tiralo et 5 joëlettes disponibles dans la période estivale",
       "type": "string"
+    },
+	{
+      "name": "url_media",
+      "title": "hyperliens vers des photos du service",
+      "description": "hyperliens vers des photos représentatives du service",
+      "example": ["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],
+      "type": "array",
+      "items": {
+        "type":"string",
+        "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"}
+        }
     },
     {
       "name": "geom_pct",
