@@ -49,7 +49,7 @@
       }
    ],
    "created":"2026-04-20",
-   "lastModified":"2026-05-20",
+   "lastModified":"2026-07-07",
    "version":"v0.1",
    "contributors":[
       {
@@ -428,7 +428,7 @@
       {
          "name":"pente_max",
          "title":"pente du terrain la plus défavorable",
-         "description":"pente du terrain la plus défavorable dans le sens de circulation (en pourcentage)",
+         "description":"pente du terrain la plus défavorable",
          "example":"faible",
          "type":"string",
          "constraints":{
@@ -704,8 +704,8 @@
       },
       {
          "name":"pente_max_liaison",
-         "title":"pente maximum de la liaison",
-         "description":"pente maximum de la liaison (en %)",
+         "title":"pente maximale de la liaison",
+         "description":"pente maximale de la liaison",
          "example":"faible",
          "type":"string",
          "constraints":{
