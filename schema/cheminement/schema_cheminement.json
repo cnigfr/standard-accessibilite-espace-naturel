@@ -644,6 +644,15 @@
             ]
          }
       },
+	  {
+         "name":"desserte_cyclable",
+         "title":"desserte du site naturel par une piste cyclable en site propre",
+         "description":"desserte du site naturel par une piste cyclable en site propre",
+         "example":"non",
+         "type":"boolean",
+		 "trueValues":["true","True","TRUE","1","oui","OUI"],
+		 "falseValues":["false","False","FALSE","0","non","NON"]
+      },
       {
          "name":"type_sol_liaison",
          "title":"types de sol majoritaire de la liaison",
