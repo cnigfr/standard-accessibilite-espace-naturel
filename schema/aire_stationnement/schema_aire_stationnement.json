@@ -278,6 +278,19 @@
       }
     },
     {
+      "name": "url_media",
+      "title": "hyperliens vers des photos de l'aire de stationnement",
+      "description": "hyperliens vers des photos représentatives de l'aire de stationnement",
+      "example": ["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],
+      "type": "array",
+      "items": {
+        "type":"string",
+        "constraints":{
+            "required":false,
+            "pattern":"^(https?)://[^\\s/$.?#].[^\\s]*$"}
+        }
+    },
+    {
       "name": "coord_gps_aire",
       "title": "coordonnées géographiques de l'aire de stationnement",
       "description": "coordonnées géographiques de l'aire de stationnement",
