@@ -272,19 +272,26 @@
          "constraints":{
             "required":true,
             "enum":[
+			   "bois",
                "forêt",
+			   "prairie",
                "désert",
                "prairie",
                "littoral",
 			   "plage",
-               "‍fleuve, rivière, lac",
-               "‍souterrain",
+               "‍fleuve, rivière, canal",
                "zone humide",
+			   "lacustre",
+			   "vallée",
+			   "plaine",
+			   "plateau",
+			   "coteau",
                "montagne",
+			   "autre relief marqué",
                "rural",
-               "urbain",
-               "industriel",
-               "toundra",
+			   "agricole",
+               "bâti et urbanisé",
+               "industriel",				
                "autre"
             ]
          }
