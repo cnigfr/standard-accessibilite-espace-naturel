@@ -159,6 +159,26 @@
         ]
       }
     },
+	  {
+      "name": "label_service",
+      "title": "labels du service",
+      "description": "éventuels labels attribués au service",
+      "example": ["Tourisme & Handicap"],
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Tourisme & Handicap",
+          "S3A",
+          "autre",
+          "NC",
+          "sans objet"
+        ]
+      }
+    },
     {
       "name": "url_local_acceslibre",
       "title": "hyperlien vers la fiche Acceslibre du local en tant que ERP",
