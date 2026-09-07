@@ -1,7 +1,7 @@
 # Schéma
 
-Ce répertoire contiendra (le cas échéant) le schéma JSON correspondant au **Standard CNIG Accessibilite du cheminement en espace naturel**
-Cette section est en **travaux** et présente ci-desous quelques concepts, ressources et exemples.
+Ce répertoire contient le schéma JSON correspondant au **Standard CNIG Accessibilite du cheminement en espace naturel**
+Cette section est en **travaux** et présente ci-dessous quelques concepts, ressources et exemples.
 
 ## Réaliser un schéma
 
