@@ -1,1 +1,2 @@
-
+id_obstacle,id_osm,type_obstacle,description_obstacle,url_media,frequence_obstacle,reperabilite_obstacle,coord_gps_obstacle,geom_pct
+44003:OBS:00112:LOC,,ressaut|nid de poule|affleurement rocheux,le ressaut en ciment mesure 7 cm,https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30 ,obstacle fréquent,non,"{""type"": ""Point"", ""coordinates"": [49.2527 3.9815] }","{""type"": ""Point"", ""coordinates"": [ [656589.70, 6425785.32] }"
