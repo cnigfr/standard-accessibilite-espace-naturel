@@ -11,6 +11,8 @@ Lancement du [GT CNIG Acessiblité du cheminement en espace naturel](https://cni
 
 Premières élaborations du schéma, sur la classe CHEMINEMENT
 
+## Version 1.0.0 - 2026-09-18
 
+Schéma et projet de standard soumis à la validation de la Commission des standards du CNIG.
 
 
