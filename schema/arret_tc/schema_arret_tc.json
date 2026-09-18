@@ -14,7 +14,7 @@
   ],
   "countryCode": "FR",
   "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel",
-  "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1/schema/datapackage.json",
+  "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v1.0.0/schema/datapackage.json",
   "image": "",
   "licenses": [
     {
@@ -27,7 +27,7 @@
     {
       "title": "Exemple valide",
       "name": "exemple-valide-csv",
-      "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1/schema/arret_tc/exemple-valide.csv"
+      "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v1.0.0/schema/arret_tc/exemple-valide.csv"
     }
   ],
   "sources": [
