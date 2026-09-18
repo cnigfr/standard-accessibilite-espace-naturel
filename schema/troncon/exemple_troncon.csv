@@ -1,1 +1,2 @@
-
+id_troncon,id_osm,type_troncon,largeur_min,pente_max,devers_max,type_sol,etat_sol,reperabilite_troncon,type_securite,url_media,geom_lin
+44003:TRC:00089:LOC,,sentier,"0,7",moyenne,faible,sol naturel irrégulier,roulant,revêtement différencié sur au moins un côté,aucun,https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30 ,"{""type"": ""Linestring"", ""coordinates"": [ [656589.70, 6425785.32], [656655.02, 6425866.31], [656663.55, 6425874.43] ] }"
