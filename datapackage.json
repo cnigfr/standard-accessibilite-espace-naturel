@@ -16,7 +16,7 @@
         },
 		{
             "name": "troncon",
-            "path": "schema/troncon/exemple-valide.csv",
+            "path": "schema/troncon/exemple_troncon.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
@@ -35,7 +35,7 @@
         },
 		{
             "name": "obstacle",
-            "path": "schema/obstacle/exemple-valide.csv",
+            "path": "schema/obstacle/exemple_obstacle.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
@@ -54,7 +54,7 @@
         },
 		{
             "name": "arret_tc",
-            "path": "schema/arret_tc/exemple-valide.csv",
+            "path": "schema/arret_tc/exemple_arret_tc.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
@@ -73,7 +73,7 @@
         },
 		{
             "name": "aire_stationnement",
-            "path": "schema/aire_stationnement/exemple-valide.csv",
+            "path": "schema/aire_stationnement/exemple_aire_stationnement.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
@@ -92,7 +92,7 @@
         },
 		{
             "name": "mobilier",
-            "path": "schema/mobilier/exemple-valide.csv",
+            "path": "schema/mobilier/exemple_mobilier.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
@@ -125,7 +125,7 @@
         },
 		{
             "name": "service",
-            "path": "schema/service/exemple-valide.csv",
+            "path": "schema/service/exemple_service.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
@@ -158,7 +158,7 @@
         },
 		{
             "name": "signaletique",
-            "path": "schema/signaletique/exemple-valide.csv",
+            "path": "schema/signaletique/exemple_signaletique.csv",
             "profile": "tabular-data-resource",
             "format": "csv",
             "mediatype": "text/csv",
