@@ -172,6 +172,7 @@
         "required": true,
         "enum": [
           "Tourisme & Handicap",
+		  "Handi'spot",
           "S3A",
           "autre",
           "NC",
