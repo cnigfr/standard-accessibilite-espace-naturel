@@ -134,9 +134,7 @@
           "minimale",
           "faible",
           "moyenne",
-          "forte",
-          "NC",
-          "sans objet"
+          "forte"
         ]
       }
     },
