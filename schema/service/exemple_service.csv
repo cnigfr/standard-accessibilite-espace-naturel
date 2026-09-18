@@ -1,1 +1,2 @@
-
+id_service,type_service,type_local,label_service,url_local_acceslibre,aide_psh,commentaire,url_media,geom_pct
+44003:SER:0032:LOC,point d’eau|toilettes PMR,aucun,Tourisme & Handicap,https://acceslibre.beta.gouv.fr/app/44-saint-nazaire/a/toilettes-publiques/erp/toilettes-publiques-courance/,aides à la mise à l'eau|joëlette,3 tiralo et 5 joëlettes disponibles dans la période estivale,https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30 ,"{""type"": ""Point"", ""coordinates"": [ [656589.70, 6425785.32] }"
