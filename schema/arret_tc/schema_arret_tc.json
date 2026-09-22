@@ -159,7 +159,7 @@
       "title": "coordonnées géographiques de l'arrêt",
       "description": "coordonnées géographiques de l'arrêt",
       "example": "{\"type\": \"Point\", \"coordinates\": [49.2527, 3.9815] }",
-      "type": "geojson",
+      "type": "geopoint",
       "format": "geopoint"
     },
     {
