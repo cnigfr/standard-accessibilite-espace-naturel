@@ -294,7 +294,7 @@
       "title": "coordonnées géographiques de l'aire de stationnement",
       "description": "coordonnées géographiques de l'aire de stationnement",
       "example": "{\"type\": \"Point\", \"coordinates\": [49.2527, 3.9815] }",
-      "type": "geojson",
+      "type": "geopoint",
       "format": "geopoint"
     },
     {
