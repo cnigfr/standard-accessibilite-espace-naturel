@@ -210,7 +210,7 @@
       "title": "coordonnées géographiques de l'obstacle",
       "description": "coordonnées géographiques de l'obstacle",
       "example": "{\"type\": \"Point\", \"coordinates\": [49.2527, 3.9815] }",
-      "type": "geojson",
+      "type": "geopoint",
       "format": "geopoint"
     },
     {
