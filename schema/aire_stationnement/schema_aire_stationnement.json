@@ -199,16 +199,27 @@
       "title": "présence de signalisation les stationnements PMR",
       "description": "présence (oui/non) de signalisation indiquant la spécificité du stationnement",
       "example": "oui",
-      "type": "boolean"
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "oui",
+          "non"
+        ]
+      }
     },
     {
       "name": "marquage_sol",
       "title": "présence de marquage au sol",
       "description": "présence (oui/non) du marquage au sol : pictogramme et contour de la place",
       "example": "oui",
-      "type": "boolean",
+      "type": "string",
       "constraints": {
-        "required": true
+        "required": true,
+        "enum": [
+          "oui",
+          "non"
+        ]
       }
     },
     {
@@ -251,9 +262,13 @@
       "title": "présence de mobilier",
       "description": "présence (oui/non) de mobilier",
       "example": "oui",
-      "type": "boolean",
+      "type": "string",
       "constraints": {
-        "required": true
+        "required": true,
+        "enum": [
+          "oui",
+          "non"
+        ]
       }
     },
     {
@@ -261,9 +276,13 @@
       "title": "présence de garage à deux-roues",
       "description": "présence (oui/non) d’un dispositif permettant le garage des deux-roues (bicyclette, mobylette, scooter, moto)",
       "example": "oui",
-      "type": "boolean",
+      "type": "string",
       "constraints": {
-        "required": true
+        "required": true,
+        "enum": [
+          "oui",
+          "non"
+        ]
       }
     },
     {
@@ -271,9 +290,13 @@
       "title": "présence d’un portique limiteur",
       "description": "présence (oui/non) d’un portique limiteur",
       "example": "non",
-      "type": "boolean",
+      "type": "string",
       "constraints": {
-        "required": true
+        "required": true,
+        "enum": [
+          "oui",
+          "non"
+        ]
       }
     },
     {
