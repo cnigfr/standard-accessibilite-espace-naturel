@@ -293,9 +293,8 @@
       "name": "coord_gps_aire",
       "title": "coordonnées géographiques de l'aire de stationnement",
       "description": "coordonnées géographiques de l'aire de stationnement",
-      "example": "{\"type\": \"Point\", \"coordinates\": [49.2527, 3.9815] }",
-      "type": "geopoint",
-      "format": "geopoint"
+      "example": "49.2527, 3.9815",
+      "type": "geopoint"
     },
     {
       "name": "geom_surf",
