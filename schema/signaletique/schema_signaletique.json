@@ -186,16 +186,16 @@
       "name": "geom_pct",
       "title": "géométrie ponctuelle de la signalétique",
       "description": "géométrie ponctuelle de la signalétique en projection Lambert93 au format GeoJSON",
-      "example": "{\"type\": \"Point\", \"coordinates\": [ [656589.70, 6425785.32] }",
-      "type": "geojson",
-      "geometryType": "POINT",
-      "gpkg": {
-            "geometryType": "POINT",
-            "srs_id": 2154,
-            "spatialIndex": true
+      "example":{
+            "type":"Point",
+            "coordinates":[
+               656589.70,
+               6425785.32
+            ]
          },
-      "constraints": {
-        "required": true
+         "type":"geojson",
+         "constraints":{
+            "required":true
       }
     }
   ],
