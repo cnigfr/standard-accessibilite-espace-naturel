@@ -238,7 +238,7 @@
       "name": "geom_pct",
       "title": "géométrie ponctuelle du service",
       "description": "géométrie ponctuelle du service en projection Lambert93 au format GeoJSON",
-    "example":{
+	  "example":{
             "type":"Point",
             "coordinates":[
                656589.70,
