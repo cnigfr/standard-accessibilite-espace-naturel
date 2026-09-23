@@ -39,6 +39,10 @@ jobs:
       run: |
         frictionless validate --type schema schema/mobilier/schema_mobilier.json
         # frictionless validate --schema schema/mobilier/schema_mobilier.json schema/mobilier/exemple_cheminement.csv
+    - name: Vérification du schéma obstacle et des fichiers d'exemples associés
+      run: |
+        frictionless validate --type schema schema/obstacle/schema_obstacle.json
+        # frictionless validate --schema schema/obstacle/schema_obstacle.json schema/obstacle/exemple_cheminement.csv
     - name: Vérification du datapackage
       run: |
         # frictionless validate datapackage.json
