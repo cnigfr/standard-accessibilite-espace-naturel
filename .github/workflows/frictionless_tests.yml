@@ -38,11 +38,23 @@ jobs:
     - name: Vérification du schéma mobilier et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/mobilier/schema_mobilier.json
-        # frictionless validate --schema schema/mobilier/schema_mobilier.json schema/mobilier/exemple_cheminement.csv
+        # frictionless validate --schema schema/mobilier/schema_mobilier.json schema/mobilier/exemple_mobilier.csv
     - name: Vérification du schéma obstacle et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/obstacle/schema_obstacle.json
-        # frictionless validate --schema schema/obstacle/schema_obstacle.json schema/obstacle/exemple_cheminement.csv
+        # frictionless validate --schema schema/obstacle/schema_obstacle.json schema/obstacle/exemple_obstacle.csv
+    - name: Vérification du schéma service et des fichiers d'exemples associés
+      run: |
+        frictionless validate --type schema schema/service/schema_obstacle.json
+        # frictionless validate --schema schema/service/schema_service.json schema/service/exemple_service.csv
+    - name: Vérification du schéma signaletique et des fichiers d'exemples associés
+      run: |
+        frictionless validate --type schema schema/signaletique/schema_signaletique.json
+        # frictionless validate --schema schema/signaletique/schema_signaletique.json schema/signaletique/exemple_signaletique.csv
+    - name: Vérification du schéma troncon et des fichiers d'exemples associés
+      run: |
+        frictionless validate --type schema schema/troncon/schema_troncon.json
+        # frictionless validate --schema schema/troncon/schema_troncon.json schema/troncon/exemple_troncon.csv
     - name: Vérification du datapackage
       run: |
         # frictionless validate datapackage.json
