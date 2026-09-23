@@ -27,6 +27,10 @@ jobs:
       run: |
         frictionless validate --type schema schema/cheminement/schema_cheminement.json
         # frictionless validate --schema schema/cheminement/schema_cheminement.json schema/cheminement/exemple_cheminement.csv
+    - name: Vérification du schéma aire_stationnement et des fichiers d'exemples associés
+      run: |
+        frictionless validate --type schema schema/aire_stationnement/aire_stationnement.json
+        # frictionless validate --schema schema/cheminement/aire_stationnement.json schema/aire_stationnement/exemple_aire_stationnement.csv
     - name: Vérification du datapackage
       run: |
         # frictionless validate datapackage.json
