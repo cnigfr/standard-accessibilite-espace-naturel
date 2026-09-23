@@ -320,17 +320,11 @@
       "type": "geopoint"
     },
     {
-      "name": "geom_surf",
+       "name": "geom_surf",
       "title": "géométrie ponctuelle ou surfacique de l'aire de stationnement",
       "description": "géométrie ponctuelle ou surfacique de l'aire de stationnement en projection Lambert93 au format GeoJSON",
-      "example": "{\"type\": \"Polygon\", \"coordinates\": [656589.70, 6425785.32] }",
+      "example": "{ "type": "FeatureCollection", "features": [ { "type": "Feature", "properties": {}, "geometry": { "type": "Polygon", "coordinates": [ [ [ 2.3397531, 49.0236651 ], [ 2.746726, 48.7904639 ], [ 2.0913952, 48.728552 ], [ 2.3397531, 49.0236651 ] ] ] } } ] }}",
       "type": "geojson",
-      "geometryType": "POLYGON",
-      "gpkg": {
-            "geometryType": "POLYGON",
-            "srs_id": 2154,
-            "spatialIndex": true
-         },
       "constraints": {
         "required": true
       }
