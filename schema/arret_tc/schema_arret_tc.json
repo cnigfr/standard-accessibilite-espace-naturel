@@ -168,7 +168,7 @@
     {
       "name": "geom_pct",
       "title": "géométrie ponctuelle de l’arrêt",
-      "description": "géométrie ponctuelle de l'obstacle en projection Lambert93 au format GeoJSON",
+      "description": "géométrie ponctuelle de l'arrêt en projection Lambert93 au format GeoJSON",
       "example":{
             "type":"Point",
             "coordinates":[
