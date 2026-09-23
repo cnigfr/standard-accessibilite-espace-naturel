@@ -323,7 +323,7 @@
       "name": "geom_surf",
       "title": "géométrie ponctuelle ou surfacique de l'aire de stationnement",
       "description": "géométrie ponctuelle ou surfacique de l'aire de stationnement en projection Lambert93 au format GeoJSON",
-      "example": "{\"type\": \"Polygon\", \"coordinates\": [ [656589.70, 6425785.32] }",
+      "example": "{\"type\": \"Polygon\", \"coordinates\": [656589.70, 6425785.32] }",
       "type": "geojson",
       "geometryType": "POLYGON",
       "gpkg": {
