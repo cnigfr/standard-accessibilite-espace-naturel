@@ -1,2 +1,2 @@
 id_mobilier,id_troncon,id_arret_tc,id_aire_stationnement,type_mobilier,etat_mobilier,url_media,geom_pct
-44003:MOB:0098:LOC,44003:TRC:00089:LOC,44003:ATC:0022:LOC,44003:AST:0007:LOC,table avec banc pour PMR,excellent,["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],""type"": ""Feature"", ""geometry"": {""type"": ""Point"", ""coordinates"": [656589.70, 6425785.32]}
+44003:MOB:0098:LOC,44003:TRC:00089:LOC,44003:ATC:0022:LOC,44003:AST:0007:LOC,table avec banc pour PMR,excellent,["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],"{""type"": ""Point"", ""coordinates"": [656589.70, 6425785.32]}"
