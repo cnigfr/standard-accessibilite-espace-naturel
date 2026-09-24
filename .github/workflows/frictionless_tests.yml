@@ -26,7 +26,7 @@ jobs:
     - name: Vérification du schéma aire_stationnement et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/aire_stationnement/schema_aire_stationnement.json
-        # frictionless validate --schema schema/aire_stationnement/schema_aire_stationnement.json schema/aire_stationnement/exemple_aire_stationnement.csv
+        frictionless validate --schema schema/aire_stationnement/schema_aire_stationnement.json schema/aire_stationnement/exemple_aire_stationnement.csv
     - name: Vérification du schéma a et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/arret_tc/schema_arret_tc.json
