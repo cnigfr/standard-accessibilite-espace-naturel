@@ -49,7 +49,7 @@
     }
   ],
   "created": "2026-04-20",
-  "lastModified": "2026-09-23",
+  "lastModified": "2026-09-24",
   "version": "v1.0.0",
   "contributors": [
     {
@@ -111,10 +111,7 @@
       "title": "type de transport en commun à proximité du cheminement",
       "description": "type de transport en commun à proximité du cheminement",
       "example": ["car"],
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
+      "type": "string",
       "constraints": {
         "required": true,
         "enum": [
