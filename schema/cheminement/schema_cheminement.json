@@ -142,7 +142,7 @@
          }
       },
       {
-         "name":"activité",
+         "name":"activite",
          "title":"activités proposées",
          "description":"activités proposées par le cheminement",
          "example":["découverte pédagogique"],
