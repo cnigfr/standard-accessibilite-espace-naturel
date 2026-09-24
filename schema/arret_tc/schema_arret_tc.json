@@ -110,7 +110,7 @@
       "name": "type_tc",
       "title": "type de transport en commun à proximité du cheminement",
       "description": "type de transport en commun à proximité du cheminement",
-      "example": ["car"],
+      "example": "car",
       "type": "string",
       "constraints": {
         "required": true,
