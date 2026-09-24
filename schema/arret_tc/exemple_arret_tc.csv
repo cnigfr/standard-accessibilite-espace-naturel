@@ -1,2 +1,2 @@
-id_arret_tc,id_cheminement,nom_arret,nom_ligne,type_tc,arret_pmr,coord_gps_arret,url_media,geom_pct
-44003:ATC:0022:LOC,44003:CHE:00654:LOC,Ancenis bourg,"Ancenis Sucé, ligne n°10",car,oui,"{""type"": ""Point"", ""coordinates"": [49.2527 3.9815] }",["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],"{""type"": ""Point"", ""coordinates"": [656589.70, 6425785.32]}"
+id_arret_tc,id_cheminement,nom_arret,nom_ligne,type_tc,arret_pmr,url_media,coord_gps_arret,geom_pct
+44003:ATC:0022:LOC,44003:CHE:00654:LOC,Ancenis bourg,"Ancenis Sucé, ligne n°10",car,oui,["https://panoramax.fr/?&focus=pic&map=17/46.347392/2.593132&xyz=226.00/0.00/30"],"{""type"": ""Point"", ""coordinates"": [49.2527 3.9815] }","{""type"": ""Point"", ""coordinates"": [656589.70, 6425785.32]}"
