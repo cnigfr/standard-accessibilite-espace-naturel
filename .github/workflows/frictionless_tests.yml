@@ -38,7 +38,7 @@ jobs:
     - name: Vérification du schéma mobilier et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/mobilier/schema_mobilier.json
-        # frictionless validate --schema schema/mobilier/schema_mobilier.json schema/mobilier/exemple_mobilier.csv
+        frictionless validate --schema schema/mobilier/schema_mobilier.json schema/mobilier/exemple_mobilier.csv
     - name: Vérification du schéma obstacle et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/obstacle/schema_obstacle.json
