@@ -564,7 +564,9 @@
          "name": "etat_sol",
          "title": "états majoritaires du sol",
          "description": "états majoritaires du sol",
-         "example": "roulant",
+         "example": [
+            "roulant"
+         ],
          "type": "array",
          "arrayItem": {
             "type": "string",
