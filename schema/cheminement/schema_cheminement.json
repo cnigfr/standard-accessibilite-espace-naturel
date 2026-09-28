@@ -145,7 +145,7 @@
          "name":"activite",
          "title":"activités proposées",
          "description":"activités proposées par le cheminement",
-         "example":["balade"],
+         "example":"balade",
          "type":"string",
             "constraints": {
             "required":true,
