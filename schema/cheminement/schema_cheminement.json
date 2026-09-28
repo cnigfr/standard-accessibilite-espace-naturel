@@ -565,10 +565,12 @@
          "title": "états majoritaires du sol",
          "description": "états majoritaires du sol",
          "example": "roulant",
-         "type": "string",
-         "constraints": {
-            "required": true,
-            "enum": [
+         "type": "array",
+         "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
                "roulant",
                "ferme",
                "meuble",
@@ -577,7 +579,8 @@
                "boueux",
                "NC",
                "sans objet"
-            ]
+             ]
+           }
          }
       },
       {
