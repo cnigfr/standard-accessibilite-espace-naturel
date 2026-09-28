@@ -565,7 +565,8 @@
          "title": "états majoritaires du sol",
          "description": "états majoritaires du sol",
          "example": [
-            "roulant"
+            "roulant",
+            "ferme"
          ],
          "type": "array",
          "arrayItem": {
