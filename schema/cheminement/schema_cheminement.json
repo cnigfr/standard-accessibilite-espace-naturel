@@ -574,14 +574,14 @@
             "constraints": {
                "required": true,
                "enum": [
-               "roulant",
-               "ferme",
-               "meuble",
-               "glissant",
-               "réfléchissant",
-               "boueux",
-               "NC",
-               "sans objet"
+                  "roulant",
+                  "ferme",
+                  "meuble",
+                  "glissant",
+                  "réfléchissant",
+                  "boueux",
+                  "NC",
+                  "sans objet"
              ]
            }
          }
