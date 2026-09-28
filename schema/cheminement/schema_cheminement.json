@@ -146,8 +146,8 @@
          "title":"activités proposées",
          "description":"activités proposées par le cheminement",
          "example":["découverte pédagogique"],
-         "type":"array",
-         "arrayItem":{
+         "type":"string",
+           "arrayItem":{
             "type": "string",
             "constraints": {
             "required":true,
@@ -159,8 +159,8 @@
                "NC",
                "sans objet"
             ]
-		   }
-        }
+		     }
+          }
       },
       {
          "name":"longueur",
