@@ -147,10 +147,9 @@
          "description":"activités proposées par le cheminement",
          "example":["découverte pédagogique"],
          "type":"array",
-         "items":{
-            "type":"string"
-         },
-         "constraints":{
+         "arrayItem":{
+            "type": "string",
+            "constraints": {
             "required":true,
             "enum": [
                "balade",
@@ -160,7 +159,8 @@
                "NC",
                "sans objet"
             ]
-		 }
+		   }
+        }
       },
       {
          "name":"longueur",
