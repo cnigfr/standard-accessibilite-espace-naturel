@@ -57,4 +57,4 @@ jobs:
         frictionless validate --schema schema/troncon/schema_troncon.json schema/troncon/exemple_troncon.csv
     - name: Vérification du datapackage
       run: |
-        # frictionless validate datapackage.json
+        frictionless validate datapackage.json
