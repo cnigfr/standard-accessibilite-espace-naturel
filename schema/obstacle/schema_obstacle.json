@@ -169,7 +169,7 @@
       "name": "frequence_obstacle",
       "title": "fréquence d’obstacle gênant",
       "description": "fréquence d’obstacle",
-      "example": "obstacle fréquent",
+      "example": "fréquents",
       "type": "string",
       "constraints": {
         "required": true,
