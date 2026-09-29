@@ -129,14 +129,16 @@
       "name": "type_signaletique",
       "title": "type de signalétique",
       "description": "type de signalétique",
-      "example": ["signalétique d’information","signalétique pédagogique"],
+      "example": [
+        "signalétique d’information",
+        "signalétique pédagogique"
+      ],
       "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "constraints": {
-        "required": true,
-        "enum": [
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
           "signalétique d’information",
           "signalétique directionnelle",
           "signalétique de sécurité",
@@ -147,19 +149,22 @@
           "sans objet"
         ]
       }
+    }
     },
     {
       "name": "mode_perception",
       "title": "modes de perception de la signalétique",
       "description": "modes de perception : visuel, tactile, sonore…",
-      "example": ["visuel","sonore"],
+      "example": [
+        "visuel",
+        "sonore"
+      ],
       "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "constraints": {
-        "required": true,
-        "enum": [
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
           "visuel",
           "tactile",
           "sonore",
@@ -168,6 +173,7 @@
           "sans objet"
         ]
       }
+    }
     },
     {
       "name": "url_media",
