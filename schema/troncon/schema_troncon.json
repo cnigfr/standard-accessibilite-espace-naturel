@@ -102,8 +102,9 @@
       "constraints": {
         "required": true,
         "enum": [
-          "escalier",
+          "sentier",
           "passage à gué",
+          "escalier",
           "espace confiné",
           "autre",
           "NC",
@@ -216,10 +217,7 @@
       "title": "repérabilité du tronçon dans son environnement",
       "description": "repérabilité du tronçon dans son environnement grâce aux repères tactiles, visuels et autres",
       "example": ["revêtement différencié sur au moins un côté"],
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
+      "type": "string",
       "constraints": {
         "required": true,
         "enum": [
@@ -230,8 +228,7 @@
           "bande de guidage",
           "aucun",
           "NC",
-          "sans objet",
-          "reperabiliteCheminement"
+          "sans objet"
         ]
       }
     },
@@ -239,23 +236,28 @@
       "name": "type_securite",
       "title": "présence d'éléments sécurisants les espaces dangereux",
       "description": "présence d'éléments sécurisants les espaces dangereux sur le tronçon (garde-corps, rambardes…)",
-      "example": ["aucun"],
+      "example": [
+        "garde-corps",
+        "rambarde"
+      ],
       "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "constraints": {
-        "enum": [
-          "garde-corps",
-          "rambarde",
-          "barrière",
-          "aucun",
-          "autre",
-          "NC",
-          "sans objet"
-        ]
-      }
-    },
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
+                "garde-corps",
+                "rambarde",
+                "barrière",
+                "aucun",
+                "autre",
+                "NC",
+                "sans objet"
+              ]
+            }
+          },
+    }
+
     {
       "name": "url_media",
       "title": "hyperliens vers des photos du tronçon",
