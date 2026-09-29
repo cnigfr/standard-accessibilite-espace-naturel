@@ -139,17 +139,17 @@
             "constraints": {
                "required": true,
                "enum": [
-          "signalétique d’information",
-          "signalétique directionnelle",
-          "signalétique de sécurité",
-          "signalétique réglementaire",
-          "signalétique pédagogique",
-          "autre",
-          "NC",
-          "sans objet"
-        ]
-      }
-    }
+                "signalétique d’information",
+                "signalétique directionnelle",
+                "signalétique de sécurité",
+                "signalétique réglementaire",
+                "signalétique pédagogique",
+                "autre",
+                "NC",
+                "sans objet"
+              ]
+            }
+          }
     },
     {
       "name": "mode_perception",
@@ -165,15 +165,15 @@
             "constraints": {
                "required": true,
                "enum": [
-          "visuel",
-          "tactile",
-          "sonore",
-          "autre",
-          "NC",
-          "sans objet"
-        ]
-      }
-    }
+                "visuel",
+                "tactile",
+                "sonore",
+                "autre",
+                "NC",
+                "sans objet"
+              ]
+            }
+          }
     },
     {
       "name": "url_media",
