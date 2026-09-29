@@ -97,8 +97,11 @@
       "name": "type_obstacle",
       "title": "type d'obstacle",
       "description": "type d'obstacle",
-      "example": "ressaut",
-      "type": "string",
+      "example": [
+            "ressaut",
+            "nid de poule"
+         ],
+      "type": "array",
       "constraints": {
         "required": true,
         "enum": [
