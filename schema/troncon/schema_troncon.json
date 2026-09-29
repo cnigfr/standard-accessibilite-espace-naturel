@@ -256,8 +256,7 @@
               ]
             }
           },
-    }
-
+    },
     {
       "name": "url_media",
       "title": "hyperliens vers des photos du tronçon",
