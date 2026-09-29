@@ -4,7 +4,7 @@ Ce référentiel publie les documents et travaux du [GT CNIG Accessibilité du c
 
 ## Géostandard CNIG Accessibilité du cheminement en espace naturel
 
-Le géostandard Accessibilité du cheminement en espace naturel est actuellement en phase de : **<mark>_Appel à commentaires_</mark>**.
+Le géostandard Accessibilité du cheminement en espace naturel est actuellement en phase de : **<mark>_Déploiement_</mark>**.
 
 _Après élaboration, appel à commentaires, puis validation par la Commission des standards, il sera destiné à être publié sur la page web des [ressources](http://cnig.gouv.fr/ressources-accessibilite-a25335.html) du GT CNIG Accessibilité._
 
