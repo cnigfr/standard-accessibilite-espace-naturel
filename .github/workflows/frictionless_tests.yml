@@ -50,7 +50,7 @@ jobs:
     - name: Vérification du schéma signaletique et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/signaletique/schema_signaletique.json
-        # frictionless validate --schema schema/signaletique/schema_signaletique.json schema/signaletique/exemple_signaletique.csv
+        frictionless validate --schema schema/signaletique/schema_signaletique.json schema/signaletique/exemple_signaletique.csv
     - name: Vérification du schéma troncon et des fichiers d'exemples associés
       run: |
         frictionless validate --type schema schema/troncon/schema_troncon.json
