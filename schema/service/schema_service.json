@@ -120,23 +120,21 @@
             "constraints": {
                "required": true,
                "enum": [
-          "point d’eau",
-          "aire de pique-nique",
-          "toilettes PMR",
-          "consigne ou casier",
-          "point de recharge pour fauteuil électrique",
-          "point de recharge pour téléphone",
-          "prêt ou location de matériel PMR",
-          "boucle magnétique",
-          "documents FALC",
-          "topoguide thermobullé",
-          "audioguide",
-          "autre",
-          "NC",
-          "sans objet"
-        ]
-      }
-      }
+                "point d’eau",
+                "aire de pique-nique",
+                "toilettes PMR","consigne ou casier",
+                "point de recharge pour fauteuil électrique",
+                "point de recharge pour téléphone","prêt ou location de matériel PMR",
+                "boucle magnétique",
+                "documents FALC",
+                "topoguide thermobullé",
+                "audioguide",
+                "autre",
+                "NC",
+                "sans objet"
+              ]
+            }
+          }
     },
     {
       "name": "type_local",
@@ -150,19 +148,18 @@
             "type": "string",
             "constraints": {
                "required": true,
-               "enum": [
-          "maison de site",
-          "bureau d'informations touristiques",
-          "local d’accueil",
-          "poste de secours",
-          "abri accessible PMR",
-          "autre",
-          "aucun",
-          "NC",
-          "sans objet"
-        ]
-      }
-    }
+               "enum": ["maison de site",
+               "bureau d'informations touristiques",
+               "local d’accueil",
+               "poste de secours",
+               "abri accessible PMR",
+               "autre",
+               "aucun",
+               "NC",
+               "sans objet"
+              ]
+            }
+          }
     },
 	  {
       "name": "label_service",
@@ -177,15 +174,15 @@
             "constraints": {
                "required": true,
                "enum": [
-          "Tourisme & Handicap",
-		  "Handi'spot",
-          "S3A",
-          "autre",
-          "NC",
-          "sans objet"
-        ]
-      }
-    }
+                "Tourisme & Handicap",
+                "Handi'spot",
+                "S3A",
+                "autre",
+                "NC",
+                "sans objet"
+              ]
+            }
+          }
     },
     {
       "name": "url_local_acceslibre",
@@ -212,17 +209,17 @@
             "constraints": {
                "required": true,
                "enum": [
-          "aides à la mobilité",
-          "aides numériques",
-          "aides à la mise à l'eau",
-          "joëlettes",
-          "aucun",
-          "autre",
-          "NC",
-          "sans objet"
-        ]
-      }
-    }
+                "aides à la mobilité",
+                "aides numériques",
+                "aides à la mise à l'eau",
+                "joëlettes",
+                "aucun",
+                "autre",
+                "NC",
+                "sans objet"
+              ]
+            }
+          }
     },
     {
       "name": "commentaire",
