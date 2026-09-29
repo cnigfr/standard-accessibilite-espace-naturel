@@ -97,7 +97,7 @@
       "name": "type_obstacle",
       "title": "type d'obstacle",
       "description": "type d'obstacle",
-      "example": "ressaut|nid de poule|affleurement rocheux",
+      "example": "ressaut",
       "type": "string",
       "constraints": {
         "required": true,
