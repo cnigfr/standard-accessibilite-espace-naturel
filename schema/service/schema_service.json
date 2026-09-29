@@ -49,7 +49,7 @@
     }
   ],
   "created": "2026-04-20",
-  "lastModified": "2026-09-18",
+  "lastModified": "2026-09-29",
   "version": "v1.0.0",
   "contributors": [
     {
@@ -110,14 +110,16 @@
       "name": "type_service",
       "title": "type de services offerts sur le cheminement",
       "description": "type de services offerts sur le cheminement",
-      "example": ["point d’eau","toilettes PMR"],
+      "example": [
+        "point d’eau",
+        "toilettes PMR"
+      ],
       "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "constraints": {
-        "required": true,
-        "enum": [
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
           "point d’eau",
           "aire de pique-nique",
           "toilettes PMR",
@@ -134,19 +136,21 @@
           "sans objet"
         ]
       }
+      }
     },
     {
       "name": "type_local",
       "title": "type de locaux présents sur le cheminement",
       "description": "type de locaux présents sur le cheminement",
-      "example": ["aucun"],
+      "example": [
+        "aucun"
+      ],
       "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "constraints": {
-        "required": true,
-        "enum": [
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
           "maison de site",
           "bureau d'informations touristiques",
           "local d’accueil",
@@ -158,19 +162,21 @@
           "sans objet"
         ]
       }
+    }
     },
 	  {
       "name": "label_service",
       "title": "labels du service",
       "description": "éventuels labels attribués au service",
-      "example": ["Tourisme & Handicap"],
+      "example": [
+        "Tourisme & Handicap"
+      ],
       "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "constraints": {
-        "required": true,
-        "enum": [
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
           "Tourisme & Handicap",
 		  "Handi'spot",
           "S3A",
@@ -179,6 +185,7 @@
           "sans objet"
         ]
       }
+    }
     },
     {
       "name": "url_local_acceslibre",
@@ -195,14 +202,16 @@
       "name": "aide_psh",
       "title": "type de matériel ou d’équipement d’aide aux PSH",
       "description": "type de matériel ou d’équipement d’aide aux PSH",
-      "example": ["aides à la mise à l'eau","joëlette"],
+      "example": [
+        "aides à la mise à l'eau",
+        "joëlette"
+      ],
       "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "constraints": {
-        "required": true,
-        "enum": [
+      "arrayItem": {
+            "type": "string",
+            "constraints": {
+               "required": true,
+               "enum": [
           "aides à la mobilité",
           "aides numériques",
           "aides à la mise à l'eau",
@@ -213,6 +222,7 @@
           "sans objet"
         ]
       }
+    }
     },
     {
       "name": "commentaire",
