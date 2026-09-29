@@ -216,7 +216,7 @@
       "name": "reperabilite_troncon",
       "title": "repérabilité du tronçon dans son environnement",
       "description": "repérabilité du tronçon dans son environnement grâce aux repères tactiles, visuels et autres",
-      "example": ["revêtement différencié sur au moins un côté"],
+      "example": "revêtement différencié sur au moins un côté",
       "type": "string",
       "constraints": {
         "required": true,
