@@ -14,7 +14,7 @@
    ],
    "countryCode": "FR",
    "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel",
-   "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v1.0.0/schema/datapackage.json",
+   "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.9.0/schema/datapackage.json",
    "image": "",
    "licenses": [
       {
@@ -27,7 +27,7 @@
       {
          "title": "Exemple valide",
          "name": "exemple_cheminement",
-         "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v1.0.0/schema/cheminement/exemple_cheminement.csv"
+         "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.9.0/schema/cheminement/exemple_cheminement.csv"
       }
    ],
    "sources": [
@@ -49,8 +49,8 @@
       }
    ],
    "created": "2026-04-20",
-   "lastModified": "2026-09-28",
-   "version": "v1.0.0",
+   "lastModified": "2026-09-29",
+   "version": "v0.9.0",
    "contributors": [
       {
          "title": "GT CNIG Accessibilité du cheminement en espace naturel (ACEN)",
