@@ -9,6 +9,6 @@ Lancement du [GT CNIG Acessiblité du cheminement en espace naturel](https://cni
 
 ## Version 0.1.0 - 2026-09-29
 
-Schéma et projet de standard soumis à la validation de la Commission des standards du CNIG.
+Standard CNIG ACEN validé par la Commission des standards du CNIG du 24 septembre 2026.
 
 
