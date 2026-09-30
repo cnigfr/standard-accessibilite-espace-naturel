@@ -8,4 +8,4 @@ Pour cette raison, les fonds de plan nationaux IGN sont vides. Le projet QGIS in
 En dehors de CHEMINEMENT les couches de données sont vides, et leur symbolisation n'a pas encore été traitée.
 
 > [!WARNING]
-> Attention : ce projet QGIS n'intègre pas les évolutions suite à l'appel à commentaires et n'est pas rigoureusement conforme au standard ACEN v2026-09
+> Attention : ce projet QGIS v2026-05 n'intègre pas les évolutions suite à l'appel à commentaires et n'est donc pas rigoureusement conforme au standard ACEN v2026-09
