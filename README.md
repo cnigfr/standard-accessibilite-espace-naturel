@@ -4,9 +4,7 @@ Ce référentiel publie les documents et travaux du [GT CNIG Accessibilité du c
 
 ## Géostandard CNIG Accessibilité du cheminement en espace naturel
 
-Le géostandard Accessibilité du cheminement en espace naturel est actuellement en phase de : **<mark>_Déploiement_</mark>**.
-
-_Après élaboration, appel à commentaires, puis validation par la Commission des standards, il sera destiné à être publié sur la page web des [ressources](http://cnig.gouv.fr/ressources-accessibilite-a25335.html) du GT CNIG Accessibilité._
+Le [géostandard Accessibilité du cheminement en espace naturel](https://cnig.gouv.fr/ressources-accessibilite-a25335.html#H_Le-standard-CNIG-Accessibilite-du-Cheminement-en-Espace-Naturel) (ACEN) a été validé par la Commmission des standards du CNIG le 24 septembre 2026
 
 ![251014_image_std_ACEN + copyright réduite 800p](https://github.com/user-attachments/assets/08094f38-1951-4f61-9475-7e481685ccf9)
 
@@ -75,15 +73,16 @@ Il s'agit de **mettre à disposition des informations claires, adaptées et dét
 
 * Le dossier [documentation](documentation) contient les ressources documentaires du groupe de travail ;
 * Le dossier [reunions](reunions) contient les supports, comptes-rendus de réunions et documents de suivi du groupe de travail ;
+* Le dossier [ressources](ressources) contient des ressources utiles à la mise en œuvre du standard : projet géomatiques, etc. ;
 * Le dossier [standard](standard) contient le projet de standard ainsi que les ressources qui lui sont liées ;
 * Le dossier [schema](schema) contiendra le schéma json conforme au standard au standard TableSchema pour la publication des données ouvertes sur [data.gouv.fr]([url](https://www.data.gouv.fr/)).
 
 ### Données ouvertes
 
-Les données relatives à l'accessibilité du cheminement en espace naturel sont (seront) ouvertes et à la disposition de tous. Elles seront publiées sur [data.gouv.fr]([url](https://www.data.gouv.fr/)) et (potentiellement) sur la Géoplateforme.
+Les données relatives à l'accessibilité du cheminement en espace naturel sont ouvertes et à la disposition de tous. Elles seront publiées sur [data.gouv.fr]([url](https://www.data.gouv.fr/)) et (potentiellement) sur la Géoplateforme.
 
 > [!TIP]
-> Ce standard CNIG ne possède pas encore de schéma de données directement accessible sur schema.data.gouv.fr.
+> Ce standard CNIG possède un schéma de données directement accessible sur schema.data.gouv.fr.
 
 ## Informations et participation au groupe de travail
 
@@ -99,9 +98,10 @@ La méthodologie des groupes de travail du CNIG repose sur une diversité d'appr
 
 ### Actualisation
 
-Le projet de standard Accessibilité du cheminement en espace naturel, puis le standard une fois validé par le CNIG, évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs.
+Le standard Accessibilité du cheminement en espace naturel évoluera en fonction des évolutions réglementaires et de l'expression des besoins de la communauté des utilisateurs.
 
-Les ressources associées et les bases de données correspondantes seront actualisées conformément au standard CNIG Accessibilité du cheminement en espace naturel. Les mises à jour de base de données sont effectuées en modifiant le cas échéant les données qui y figurent déjà.
+Les [ressources associées](ressources) et les bases de données correspondantes seront actualisées conformément au standard.
+Les mises à jour de base de données sont effectuées en modifiant le cas échéant les données qui y figurent déjà.
 
 ### Comment contribuer
 
