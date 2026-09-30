@@ -14,13 +14,7 @@ En dehors de CHEMINEMENT les couches de données sont vides, et leur symbolisati
 
 # Installation et utilisation du projet QField ACEN
 
-### Installation du projet QField
-
-Dans le Github « [standard-accessibilite-espace-naturel](https://github.com/cnigfr/standard-accessibilite-espace-naturel) », le fichier « [ressources](https://github.com/cnigfr/standard-accessibilite-espace-naturel/tree/master/ressources) », vous trouverez dossier « ACEN_QFIELD_v2026_09 » contient le projet : « ACEN_v2026_09_qfield ».
-
 Ce projet est destiné à la collecte de données relatives à l'accessibilité des cheminements en espaces naturels à l'aide de l'application QField sur smartphone ou tablette Android.
-
-### Prérequis
 
 Avant de commencer, il est nécessaire :
 
