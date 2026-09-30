@@ -14,7 +14,7 @@
   ],
   "countryCode": "FR",
   "homepage": "https://github.com/cnigfr/standard-accessibilite-espace-naturel",
-  "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/datapackage.json",
+  "path": "https://github.com/cnigfr/standard-accessibilite-espace-naturel/raw/v0.1.0/schema/signaletique/schema_signaletique.json",
   "image": "",
   "licenses": [
     {
