@@ -6,3 +6,6 @@ Il contient un cheminement à titre d'exemple : _Le Sentier didactique du Bois d
 Pour cette raison, les fonds de plan nationaux IGN sont vides. Le projet QGIS intègre le fond de plan OSM.
 
 En dehors de CHEMINEMENT les couches de données sont vides, et leur symbolisation n'a pas encore été traitée.
+
+> [!WARNING]
+> Attention : ce projet QGIS n'intègre pas les évolutions suite à l'appel à commentaires et n'est pas rigoureusement conforme au standard ACEN v2026-09
