@@ -9,4 +9,5 @@ En dehors de CHEMINEMENT les couches de données sont vides, et leur symbolisati
 
 > [!WARNING]
 > Attention : ce projet QGIS v2026-05 n'intègre pas les évolutions suite à l'appel à commentaires et n'est donc pas rigoureusement conforme au standard ACEN v2026-09
+> 
 > => utiliser le projet QGIS v2026-09 de David Amiaud
